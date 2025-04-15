@@ -206,7 +206,34 @@ summary(dcor.snp100.stats$Ho)
 #Calculate weir and cockerham Fis and 95% confidence intervals
 #must first convert genlight to genind
 dcor.snp100.gi<-gl2gi(dcor.snp100.gl)
-dcor.snp100.wcboot<-boot.ppfis(dcor.snp100.gi, nboot=10)
-levels(dcor.snp100.gi$pop)
+#calculate 95% intervals around fis values per population
+dcor.snp100.wcboot<-boot.ppfis(dcor.snp100.gi, nboot=1000)
+dcor.snp100.wcboot
+#add population IDs to the confidence intervals
 dcor.snp100.wcfis<-cbind(levels(dcor.snp100.gi$pop), dcor.snp100.wcboot$fis.ci)
-wc(dcor.snp100.gi)
+#convert genind to hierfstat format to calulate fis point estimates
+dcor.snp100.hfstat<-genind2hierfstat(dcor.snp100.gi)
+#Hierfstat will only calculate the Fis point estimates for all individuals together, so must first subset the data for each population
+#This loop subsets the data into populations, calculates the Fis point estimates, and generates a table with the values
+pop.wc.df<-data.frame()
+pops<-unique(dcor.snp100.hfstat$pop)
+for (i in pops){
+  hfstat<-subset(dcor.snp100.hfstat, dcor.snp100.hfstat$pop==i) 
+  wc<-wc(hfstat[,-1])
+  pop.wc<-cbind(i, wc$FIS)
+  pop.wc.df=rbind(pop.wc.df, pop.wc)
+}
+pop.wc.df #final table with population and wc Fis point estimates
+#clean up the boot strap and point estimate tables so that they can be merged
+colnames(pop.wc.df)<-c("pop", "wc_fis")
+colnames(dcor.snp100.wcfis)<-c("pop", "lower_wc_fis", "upper_wc_fis")
+#merge tables and reorder columns
+dcor.snp100.wcfis<-merge(dcor.snp100.wcfis, pop.wc.df, by = "pop")
+dcor.snp100.wcfis<-dcor.snp100.wcfis[,c(1,4,2,3)]
+#reduce the number of decimal points to three
+dcor.snp100.wcfis$wc_fis<-as.numeric(dcor.snp100.wcfis$wc_fis)
+dcor.snp100.wcfis<-dcor.snp100.wcfis %>% mutate_if(is.numeric, ~round(.,3))
+#Final table with population id, weir and cockerhap Fis point estimate and 95% confidence intervals
+dcor.snp100.wcfis
+
+                  
