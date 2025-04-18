@@ -159,6 +159,7 @@ table(pop(dcor.snp100.gl), grp$grp)
 #the number of PCs that has the highest proportion of successful predictions is selected
 #in the example here, 60 PCs give the best model output
 x<-dcor.snp100.gl
+summary(x$pop)
 mat<-tab(x)
 grp<-pop(x)
 xval<-xvalDapc(mat, grp, n.pca.max=300, training.set=0.9, result="groupMean", center=TRUE, scale=FALSE, n.pca=NULL, n.rep=30, xval.plot=TRUE)
