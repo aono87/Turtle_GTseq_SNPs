@@ -1,0 +1,5948 @@
+Demerelate - v.0.9-3 ---
+Summary outputfile on file: 0.0466
+Analysis had been made using 10 iterations.
+Populations in inputdata: ST CROIX
+
+
+Locus: Dc00544_43_1 Dc00544_43_2 
+ Allele diversity: 
+
+1	0.906
+2	0.094
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.812
+1-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.906	0.094
+b_weir	-0.006	-0.006
+c_weir	0.094	0.094
+Fis.Weir	-0.071	-0.071
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.071
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc01018_91_1 Dc01018_91_2 
+ Allele diversity: 
+
+1	0.344
+2	0.656
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.188
+1-2	0.312
+2-2	0.5
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.344	0.656
+b_weir	0.079	0.079
+c_weir	0.156	0.156
+Fis.Weir	0.336	0.336
+
+ Fis for locus (Weir and Cockerham 1984):
+0.336
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc01661_29_1 Dc01661_29_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.375
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc01707_62_1 Dc01707_62_2 
+ Allele diversity: 
+
+1	0.438
+2	0.562
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.188
+1-2	0.5
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.438	0.562
+b_weir	0.004	0.004
+c_weir	0.25	0.25
+Fis.Weir	0.016	0.016
+
+ Fis for locus (Weir and Cockerham 1984):
+0.016
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc01784_76_1 Dc01784_76_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc02951_130_1 Dc02951_130_2 
+ Allele diversity: 
+
+1	0.531
+2	0.469
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.812
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.531	0.469
+b_weir	-0.154	-0.154
+c_weir	0.406	0.406
+Fis.Weir	-0.612	-0.612
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.612
+--- 
+ 
+ Heterozygosity: 0.812 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc03456_138_1 Dc03456_138_2 
+ Allele diversity: 
+
+1	0.5
+2	0.5
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.25
+1-2	0.5
+2-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.5	0.5
+b_weir	0.008	0.008
+c_weir	0.25	0.25
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc03556_63_1 Dc03556_63_2 
+ Allele diversity: 
+
+1	0.5
+2	0.5
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.375
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.5	0.5
+b_weir	0.073	0.073
+c_weir	0.188	0.188
+Fis.Weir	0.28	0.28
+
+ Fis for locus (Weir and Cockerham 1984):
+0.28
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc03887_62_1 Dc03887_62_2 
+ Allele diversity: 
+
+1	0.812
+2	0.188
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.25
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.812	0.188
+b_weir	0.033	0.033
+c_weir	0.125	0.125
+Fis.Weir	0.211	0.211
+
+ Fis for locus (Weir and Cockerham 1984):
+0.211
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc05864_26_1 Dc05864_26_2 
+ Allele diversity: 
+
+1	0.875
+2	0.125
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.75
+1-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.875	0.125
+b_weir	-0.013	-0.013
+c_weir	0.125	0.125
+Fis.Weir	-0.111	-0.111
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.111
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc06503_101_1 Dc06503_101_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.375
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc07300_73_1 Dc07300_73_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc07937_35_1 Dc07937_35_2 
+ Allele diversity: 
+
+1	0.531
+2	0.469
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.25
+1-2	0.562
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.531	0.469
+b_weir	-0.025	-0.025
+c_weir	0.281	0.281
+Fis.Weir	-0.098	-0.098
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.098
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc08054_20_1 Dc08054_20_2 
+ Allele diversity: 
+
+1	0.375
+2	0.625
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.125
+2-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.375	0.625
+b_weir	0.185	0.185
+c_weir	0.062	0.062
+Fis.Weir	0.748	0.748
+
+ Fis for locus (Weir and Cockerham 1984):
+0.748
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc08189_32_1 Dc08189_32_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.75
+1-2	0.188
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	0.044	0.044
+c_weir	0.094	0.094
+Fis.Weir	0.318	0.318
+
+ Fis for locus (Weir and Cockerham 1984):
+0.318
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc08463_49_1 Dc08463_49_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.5
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	-0.029	-0.029
+c_weir	0.25	0.25
+Fis.Weir	-0.132	-0.132
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.132
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc08578_36_1 Dc08578_36_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.438
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc08865_87_1 Dc08865_87_2 
+ Allele diversity: 
+
+1	0.781
+2	0.219
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.781	0.219
+b_weir	-0.044	-0.044
+c_weir	0.219	0.219
+Fis.Weir	-0.25	-0.25
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.25
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc10003_34_1 Dc10003_34_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.5
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	-0.058	-0.058
+c_weir	0.25	0.25
+Fis.Weir	-0.304	-0.304
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.304
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc10390_82_1 Dc10390_82_2 
+ Allele diversity: 
+
+1	0.938
+2	0.062
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.875
+1-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.938	0.062
+b_weir	-0.002	-0.002
+c_weir	0.062	0.062
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc10878_74_1 Dc10878_74_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.375
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	0.035	0.035
+c_weir	0.188	0.188
+Fis.Weir	0.159	0.159
+
+ Fis for locus (Weir and Cockerham 1984):
+0.159
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc10885_39_1 Dc10885_39_2 
+ Allele diversity: 
+
+1	0.656
+2	0.344
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.375
+1-2	0.562
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.656	0.344
+b_weir	-0.05	-0.05
+c_weir	0.281	0.281
+Fis.Weir	-0.216	-0.216
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.216
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc11062_21_1 Dc11062_21_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.625
+1-2	0.25
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.071	0.071
+c_weir	0.125	0.125
+Fis.Weir	0.362	0.362
+
+ Fis for locus (Weir and Cockerham 1984):
+0.362
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc11203_81_1 Dc11203_81_2 
+ Allele diversity: 
+
+1	0.469
+2	0.531
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.312
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.469	0.531
+b_weir	0.104	0.104
+c_weir	0.156	0.156
+Fis.Weir	0.4	0.4
+
+ Fis for locus (Weir and Cockerham 1984):
+0.4
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc11295_127_1 Dc11295_127_2 
+ Allele diversity: 
+
+1	1
+--- 
+ 
+ Genotype diversity: 
+
+1-1	1
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1
+Population.Frequency	1
+b_weir	0
+c_weir	0
+Fis.Weir	0
+
+ Fis for locus (Weir and Cockerham 1984):
+1
+--- 
+ 
+ Heterozygosity: 0 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc13159_47_1 Dc13159_47_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.438
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc13592_20_1 Dc13592_20_2 
+ Allele diversity: 
+
+1	0.344
+2	0.656
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.188
+1-2	0.312
+2-2	0.5
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.344	0.656
+b_weir	0.079	0.079
+c_weir	0.156	0.156
+Fis.Weir	0.336	0.336
+
+ Fis for locus (Weir and Cockerham 1984):
+0.336
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc14022_61_1 Dc14022_61_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.375
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	0.035	0.035
+c_weir	0.188	0.188
+Fis.Weir	0.159	0.159
+
+ Fis for locus (Weir and Cockerham 1984):
+0.159
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc14945_86_1 Dc14945_86_2 
+ Allele diversity: 
+
+1	0.594
+2	0.406
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.562
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.594	0.406
+b_weir	-0.033	-0.033
+c_weir	0.281	0.281
+Fis.Weir	-0.134	-0.134
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.134
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc16747_57_1 Dc16747_57_2 
+ Allele diversity: 
+
+1	0.375
+2	0.625
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.188
+1-2	0.375
+2-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.375	0.625
+b_weir	0.056	0.056
+c_weir	0.188	0.188
+Fis.Weir	0.231	0.231
+
+ Fis for locus (Weir and Cockerham 1984):
+0.231
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc16962_31_1 Dc16962_31_2 
+ Allele diversity: 
+
+1	0.938
+2	0.062
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.875
+1-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.938	0.062
+b_weir	-0.002	-0.002
+c_weir	0.062	0.062
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc18951_66_1 Dc18951_66_2 
+ Allele diversity: 
+
+1	0.812
+2	0.188
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.625
+1-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.812	0.188
+b_weir	-0.031	-0.031
+c_weir	0.188	0.188
+Fis.Weir	-0.2	-0.2
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.2
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc20232_69_1 Dc20232_69_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.438
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc21465_55_1 Dc21465_55_2 
+ Allele diversity: 
+
+1	0.469
+2	0.531
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.25
+1-2	0.438
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.469	0.531
+b_weir	0.04	0.04
+c_weir	0.219	0.219
+Fis.Weir	0.153	0.153
+
+ Fis for locus (Weir and Cockerham 1984):
+0.153
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc21637_22_1 Dc21637_22_2 
+ Allele diversity: 
+
+1	0.406
+2	0.594
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.188
+1-2	0.438
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.406	0.594
+b_weir	0.031	0.031
+c_weir	0.219	0.219
+Fis.Weir	0.125	0.125
+
+ Fis for locus (Weir and Cockerham 1984):
+0.125
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc22013_26_1 Dc22013_26_2 
+ Allele diversity: 
+
+1	0.625
+2	0.375
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.375
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.625	0.375
+b_weir	0.056	0.056
+c_weir	0.188	0.188
+Fis.Weir	0.231	0.231
+
+ Fis for locus (Weir and Cockerham 1984):
+0.231
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc22883_31_1 Dc22883_31_2 
+ Allele diversity: 
+
+1	0.594
+2	0.406
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.562
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.594	0.406
+b_weir	-0.033	-0.033
+c_weir	0.281	0.281
+Fis.Weir	-0.134	-0.134
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.134
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc22887_42_1 Dc22887_42_2 
+ Allele diversity: 
+
+1	0.906
+2	0.094
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.812
+1-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.906	0.094
+b_weir	-0.006	-0.006
+c_weir	0.094	0.094
+Fis.Weir	-0.071	-0.071
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.071
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc27955_108_1 Dc27955_108_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.5
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	-0.029	-0.029
+c_weir	0.25	0.25
+Fis.Weir	-0.132	-0.132
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.132
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc28124_67_1 Dc28124_67_2 
+ Allele diversity: 
+
+1	1
+--- 
+ 
+ Genotype diversity: 
+
+1-1	1
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1
+Population.Frequency	1
+b_weir	0
+c_weir	0
+Fis.Weir	0
+
+ Fis for locus (Weir and Cockerham 1984):
+1
+--- 
+ 
+ Heterozygosity: 0 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc28776_34_1 Dc28776_34_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc30071_39_1 Dc30071_39_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.438
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc31007_38_1 Dc31007_38_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.375
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc33714_53_1 Dc33714_53_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.375
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	0.035	0.035
+c_weir	0.188	0.188
+Fis.Weir	0.159	0.159
+
+ Fis for locus (Weir and Cockerham 1984):
+0.159
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc33907_80_1 Dc33907_80_2 
+ Allele diversity: 
+
+1	0.938
+2	0.062
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.875
+1-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.938	0.062
+b_weir	-0.002	-0.002
+c_weir	0.062	0.062
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc34902_33_1 Dc34902_33_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.375
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	0.035	0.035
+c_weir	0.188	0.188
+Fis.Weir	0.159	0.159
+
+ Fis for locus (Weir and Cockerham 1984):
+0.159
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc35779_46_1 Dc35779_46_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc36571_143_1 Dc36571_143_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.625
+1-2	0.25
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.071	0.071
+c_weir	0.125	0.125
+Fis.Weir	0.362	0.362
+
+ Fis for locus (Weir and Cockerham 1984):
+0.362
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc36616_24_1 Dc36616_24_2 
+ Allele diversity: 
+
+1	0.938
+2	0.062
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.875
+1-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.938	0.062
+b_weir	-0.002	-0.002
+c_weir	0.062	0.062
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc36767_28_1 Dc36767_28_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.5
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	-0.029	-0.029
+c_weir	0.25	0.25
+Fis.Weir	-0.132	-0.132
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.132
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc40235_127_1 Dc40235_127_2 
+ Allele diversity: 
+
+1	0.812
+2	0.188
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.25
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.812	0.188
+b_weir	0.033	0.033
+c_weir	0.125	0.125
+Fis.Weir	0.211	0.211
+
+ Fis for locus (Weir and Cockerham 1984):
+0.211
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc41234_66_1 Dc41234_66_2 
+ Allele diversity: 
+
+1	0.781
+2	0.219
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.781	0.219
+b_weir	-0.044	-0.044
+c_weir	0.219	0.219
+Fis.Weir	-0.25	-0.25
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.25
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc46984_53_1 Dc46984_53_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.5
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	-0.029	-0.029
+c_weir	0.25	0.25
+Fis.Weir	-0.132	-0.132
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.132
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc47572_71_1 Dc47572_71_2 
+ Allele diversity: 
+
+1	1
+--- 
+ 
+ Genotype diversity: 
+
+1-1	1
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1
+Population.Frequency	1
+b_weir	0
+c_weir	0
+Fis.Weir	0
+
+ Fis for locus (Weir and Cockerham 1984):
+1
+--- 
+ 
+ Heterozygosity: 0 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc47935_30_1 Dc47935_30_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.75
+1-2	0.188
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	0.044	0.044
+c_weir	0.094	0.094
+Fis.Weir	0.318	0.318
+
+ Fis for locus (Weir and Cockerham 1984):
+0.318
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc48207_129_1 Dc48207_129_2 
+ Allele diversity: 
+
+1	0.406
+2	0.594
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.188
+1-2	0.438
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.406	0.594
+b_weir	0.031	0.031
+c_weir	0.219	0.219
+Fis.Weir	0.125	0.125
+
+ Fis for locus (Weir and Cockerham 1984):
+0.125
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc48950_19_1 Dc48950_19_2 
+ Allele diversity: 
+
+1	0.969
+2	0.031
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.938
+1-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.969	0.031
+b_weir	0	0
+c_weir	0.031	0.031
+Fis.Weir	0	0
+
+ Fis for locus (Weir and Cockerham 1984):
+0
+--- 
+ 
+ Heterozygosity: 0.062 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc49080_112_1 Dc49080_112_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.625
+1-2	0.188
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	0.119	0.119
+c_weir	0.094	0.094
+Fis.Weir	0.559	0.559
+
+ Fis for locus (Weir and Cockerham 1984):
+0.559
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc49184_83_1 Dc49184_83_2 
+ Allele diversity: 
+
+1	0.656
+2	0.344
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.375
+1-2	0.562
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.656	0.344
+b_weir	-0.05	-0.05
+c_weir	0.281	0.281
+Fis.Weir	-0.216	-0.216
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.216
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc51020_135_1 Dc51020_135_2 
+ Allele diversity: 
+
+1	0.812
+2	0.188
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.625
+1-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.812	0.188
+b_weir	-0.031	-0.031
+c_weir	0.188	0.188
+Fis.Weir	-0.2	-0.2
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.2
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc52523_27_1 Dc52523_27_2 
+ Allele diversity: 
+
+1	0.812
+2	0.188
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.625
+1-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.812	0.188
+b_weir	-0.031	-0.031
+c_weir	0.188	0.188
+Fis.Weir	-0.2	-0.2
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.2
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc55481_47_1 Dc55481_47_2 
+ Allele diversity: 
+
+1	0.562
+2	0.438
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.375
+1-2	0.375
+2-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.562	0.438
+b_weir	0.069	0.069
+c_weir	0.188	0.188
+Fis.Weir	0.268	0.268
+
+ Fis for locus (Weir and Cockerham 1984):
+0.268
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc58248_52_1 Dc58248_52_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.438
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc62188_40_1 Dc62188_40_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.5
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	-0.058	-0.058
+c_weir	0.25	0.25
+Fis.Weir	-0.304	-0.304
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.304
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: Dc67011_53_1 Dc67011_53_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.375
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	0.035	0.035
+c_weir	0.188	0.188
+Fis.Weir	0.159	0.159
+
+ Fis for locus (Weir and Cockerham 1984):
+0.159
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus003_111_1 locus003_111_2 
+ Allele diversity: 
+
+1	0.438
+2	0.562
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.75
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.438	0.562
+b_weir	-0.125	-0.125
+c_weir	0.375	0.375
+Fis.Weir	-0.5	-0.5
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.5
+--- 
+ 
+ Heterozygosity: 0.75 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus004_111_1 locus004_111_2 
+ Allele diversity: 
+
+1	0.469
+2	0.531
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.312
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.469	0.531
+b_weir	0.104	0.104
+c_weir	0.156	0.156
+Fis.Weir	0.4	0.4
+
+ Fis for locus (Weir and Cockerham 1984):
+0.4
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus005_111_1 locus005_111_2 
+ Allele diversity: 
+
+1	0.156
+2	0.844
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.312
+2-2	0.688
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.156	0.844
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus006_64_1 locus006_64_2 
+ Allele diversity: 
+
+1	0.281
+2	0.719
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.438
+2-2	0.5
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.281	0.719
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus008_89_1 locus008_89_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.438
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus013_59_1 locus013_59_2 
+ Allele diversity: 
+
+1	1
+--- 
+ 
+ Genotype diversity: 
+
+1-1	1
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1
+Population.Frequency	1
+b_weir	0
+c_weir	0
+Fis.Weir	0
+
+ Fis for locus (Weir and Cockerham 1984):
+1
+--- 
+ 
+ Heterozygosity: 0 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus014_111_1 locus014_111_2 
+ Allele diversity: 
+
+1	0.781
+2	0.219
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.625
+1-2	0.312
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.781	0.219
+b_weir	0.021	0.021
+c_weir	0.156	0.156
+Fis.Weir	0.118	0.118
+
+ Fis for locus (Weir and Cockerham 1984):
+0.118
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus016_71_1 locus016_71_2 
+ Allele diversity: 
+
+1	0.906
+2	0.094
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.812
+1-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.906	0.094
+b_weir	-0.006	-0.006
+c_weir	0.094	0.094
+Fis.Weir	-0.071	-0.071
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.071
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus019_107_1 locus019_107_2 
+ Allele diversity: 
+
+1	0.062
+2	0.938
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.125
+2-2	0.875
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.062	0.938
+b_weir	-0.002	-0.002
+c_weir	0.062	0.062
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus022_48_1 locus022_48_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.438
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus024_111_1 locus024_111_2 
+ Allele diversity: 
+
+1	0.219
+2	0.781
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.312
+2-2	0.625
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.219	0.781
+b_weir	0.021	0.021
+c_weir	0.156	0.156
+Fis.Weir	0.118	0.118
+
+ Fis for locus (Weir and Cockerham 1984):
+0.118
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus025_110_1 locus025_110_2 
+ Allele diversity: 
+
+1	0.375
+2	0.625
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.188
+1-2	0.375
+2-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.375	0.625
+b_weir	0.056	0.056
+c_weir	0.188	0.188
+Fis.Weir	0.231	0.231
+
+ Fis for locus (Weir and Cockerham 1984):
+0.231
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus027_106_1 locus027_106_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.5
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	-0.029	-0.029
+c_weir	0.25	0.25
+Fis.Weir	-0.132	-0.132
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.132
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus030_106_1 locus030_106_2 
+ Allele diversity: 
+
+1	0.312
+2	0.688
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.375
+2-2	0.5
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.312	0.688
+b_weir	0.035	0.035
+c_weir	0.188	0.188
+Fis.Weir	0.159	0.159
+
+ Fis for locus (Weir and Cockerham 1984):
+0.159
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus035_110_1 locus035_110_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus038_103_1 locus038_103_2 
+ Allele diversity: 
+
+1	0.125
+2	0.875
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.25
+2-2	0.75
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.125	0.875
+b_weir	-0.013	-0.013
+c_weir	0.125	0.125
+Fis.Weir	-0.111	-0.111
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.111
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus039_94_1 locus039_94_2 
+ Allele diversity: 
+
+1	0.406
+2	0.594
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.562
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.406	0.594
+b_weir	-0.033	-0.033
+c_weir	0.281	0.281
+Fis.Weir	-0.134	-0.134
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.134
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus040_70_1 locus040_70_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.375
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus041_109_1 locus041_109_2 
+ Allele diversity: 
+
+1	0.594
+2	0.406
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.375
+1-2	0.438
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.594	0.406
+b_weir	0.031	0.031
+c_weir	0.219	0.219
+Fis.Weir	0.125	0.125
+
+ Fis for locus (Weir and Cockerham 1984):
+0.125
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus045_96_1 locus045_96_2 
+ Allele diversity: 
+
+1	0.781
+2	0.219
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.188
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.781	0.219
+b_weir	0.085	0.085
+c_weir	0.094	0.094
+Fis.Weir	0.477	0.477
+
+ Fis for locus (Weir and Cockerham 1984):
+0.477
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus047_111_1 locus047_111_2 
+ Allele diversity: 
+
+1	0.406
+2	0.594
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.562
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.406	0.594
+b_weir	-0.033	-0.033
+c_weir	0.281	0.281
+Fis.Weir	-0.134	-0.134
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.134
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus048_101_1 locus048_101_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.375
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus053_45_1 locus053_45_2 
+ Allele diversity: 
+
+1	1
+--- 
+ 
+ Genotype diversity: 
+
+1-1	1
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1
+Population.Frequency	1
+b_weir	0
+c_weir	0
+Fis.Weir	0
+
+ Fis for locus (Weir and Cockerham 1984):
+1
+--- 
+ 
+ Heterozygosity: 0 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus055_92_1 locus055_92_2 
+ Allele diversity: 
+
+1	0.344
+2	0.656
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.438
+2-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.344	0.656
+b_weir	0.015	0.015
+c_weir	0.219	0.219
+Fis.Weir	0.062	0.062
+
+ Fis for locus (Weir and Cockerham 1984):
+0.062
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus056_88_1 locus056_88_2 
+ Allele diversity: 
+
+1	0.344
+2	0.656
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.438
+2-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.344	0.656
+b_weir	0.015	0.015
+c_weir	0.219	0.219
+Fis.Weir	0.062	0.062
+
+ Fis for locus (Weir and Cockerham 1984):
+0.062
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus058_111_1 locus058_111_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.375
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus060_111_1 locus060_111_2 
+ Allele diversity: 
+
+1	0.219
+2	0.781
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.312
+2-2	0.625
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.219	0.781
+b_weir	0.021	0.021
+c_weir	0.156	0.156
+Fis.Weir	0.118	0.118
+
+ Fis for locus (Weir and Cockerham 1984):
+0.118
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus061_60_1 locus061_60_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.438
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.01	-0.01
+c_weir	0.219	0.219
+Fis.Weir	-0.05	-0.05
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.05
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus062_111_1 locus062_111_2 
+ Allele diversity: 
+
+1	0.594
+2	0.406
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.562
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.594	0.406
+b_weir	-0.033	-0.033
+c_weir	0.281	0.281
+Fis.Weir	-0.134	-0.134
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.134
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus064_111_1 locus064_111_2 
+ Allele diversity: 
+
+1	0.438
+2	0.562
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.25
+1-2	0.375
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.438	0.562
+b_weir	0.069	0.069
+c_weir	0.188	0.188
+Fis.Weir	0.268	0.268
+
+ Fis for locus (Weir and Cockerham 1984):
+0.268
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus065_111_1 locus065_111_2 
+ Allele diversity: 
+
+1	0.125
+2	0.875
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.25
+2-2	0.75
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.125	0.875
+b_weir	-0.013	-0.013
+c_weir	0.125	0.125
+Fis.Weir	-0.111	-0.111
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.111
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus069_67_1 locus069_67_2 
+ Allele diversity: 
+
+1	0.562
+2	0.438
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.5
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.562	0.438
+b_weir	0.004	0.004
+c_weir	0.25	0.25
+Fis.Weir	0.016	0.016
+
+ Fis for locus (Weir and Cockerham 1984):
+0.016
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus074_72_1 locus074_72_2 
+ Allele diversity: 
+
+1	0.906
+2	0.094
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.812
+1-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.906	0.094
+b_weir	-0.006	-0.006
+c_weir	0.094	0.094
+Fis.Weir	-0.071	-0.071
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.071
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus076_49_1 locus076_49_2 
+ Allele diversity: 
+
+1	0.5
+2	0.5
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.375
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.5	0.5
+b_weir	0.073	0.073
+c_weir	0.188	0.188
+Fis.Weir	0.28	0.28
+
+ Fis for locus (Weir and Cockerham 1984):
+0.28
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus077_70_1 locus077_70_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.075	-0.075
+c_weir	0.281	0.281
+Fis.Weir	-0.364	-0.364
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.364
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus080_79_1 locus080_79_2 
+ Allele diversity: 
+
+1	0.531
+2	0.469
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.25
+1-2	0.562
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.531	0.469
+b_weir	-0.025	-0.025
+c_weir	0.281	0.281
+Fis.Weir	-0.098	-0.098
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.098
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus088_92_1 locus088_92_2 
+ Allele diversity: 
+
+1	0.531
+2	0.469
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.25
+1-2	0.562
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.531	0.469
+b_weir	-0.025	-0.025
+c_weir	0.281	0.281
+Fis.Weir	-0.098	-0.098
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.098
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus093_105_1 locus093_105_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.312
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	0.054	0.054
+c_weir	0.156	0.156
+Fis.Weir	0.257	0.257
+
+ Fis for locus (Weir and Cockerham 1984):
+0.257
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus096_96_1 locus096_96_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.5
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	-0.029	-0.029
+c_weir	0.25	0.25
+Fis.Weir	-0.132	-0.132
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.132
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus098_89_1 locus098_89_2 
+ Allele diversity: 
+
+1	0.469
+2	0.531
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.312
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.469	0.531
+b_weir	0.104	0.104
+c_weir	0.156	0.156
+Fis.Weir	0.4	0.4
+
+ Fis for locus (Weir and Cockerham 1984):
+0.4
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus100_67_1 locus100_67_2 
+ Allele diversity: 
+
+1	0.438
+2	0.562
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.75
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.438	0.562
+b_weir	-0.125	-0.125
+c_weir	0.375	0.375
+Fis.Weir	-0.5	-0.5
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.5
+--- 
+ 
+ Heterozygosity: 0.75 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus102_92_1 locus102_92_2 
+ Allele diversity: 
+
+1	0.406
+2	0.594
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.25
+1-2	0.312
+2-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.406	0.594
+b_weir	0.096	0.096
+c_weir	0.156	0.156
+Fis.Weir	0.38	0.38
+
+ Fis for locus (Weir and Cockerham 1984):
+0.38
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus106_97_1 locus106_97_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.5
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	-0.029	-0.029
+c_weir	0.25	0.25
+Fis.Weir	-0.132	-0.132
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.132
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus116_84_1 locus116_84_2 
+ Allele diversity: 
+
+1	0.188
+2	0.812
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.375
+2-2	0.625
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.188	0.812
+b_weir	-0.031	-0.031
+c_weir	0.188	0.188
+Fis.Weir	-0.2	-0.2
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.2
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus119_111_1 locus119_111_2 
+ Allele diversity: 
+
+1	0.5
+2	0.5
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.375
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.5	0.5
+b_weir	0.073	0.073
+c_weir	0.188	0.188
+Fis.Weir	0.28	0.28
+
+ Fis for locus (Weir and Cockerham 1984):
+0.28
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus120_93_1 locus120_93_2 
+ Allele diversity: 
+
+1	0.156
+2	0.844
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.312
+2-2	0.688
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.156	0.844
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus128_90_1 locus128_90_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.5
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	-0.058	-0.058
+c_weir	0.25	0.25
+Fis.Weir	-0.304	-0.304
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.304
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus129_30_1 locus129_30_2 
+ Allele diversity: 
+
+1	0.906
+2	0.094
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.812
+1-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.906	0.094
+b_weir	-0.006	-0.006
+c_weir	0.094	0.094
+Fis.Weir	-0.071	-0.071
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.071
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus130_94_1 locus130_94_2 
+ Allele diversity: 
+
+1	0.625
+2	0.375
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.625
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.625	0.375
+b_weir	-0.073	-0.073
+c_weir	0.312	0.312
+Fis.Weir	-0.304	-0.304
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.304
+--- 
+ 
+ Heterozygosity: 0.625 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus134_83_1 locus134_83_2 
+ Allele diversity: 
+
+1	0.562
+2	0.438
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.5
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.562	0.438
+b_weir	0.004	0.004
+c_weir	0.25	0.25
+Fis.Weir	0.016	0.016
+
+ Fis for locus (Weir and Cockerham 1984):
+0.016
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus135_60_1 locus135_60_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus137_107_1 locus137_107_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.75
+1-2	0.188
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	0.044	0.044
+c_weir	0.094	0.094
+Fis.Weir	0.318	0.318
+
+ Fis for locus (Weir and Cockerham 1984):
+0.318
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus139_94_1 locus139_94_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.375
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus140_50_1 locus140_50_2 
+ Allele diversity: 
+
+1	0.25
+2	0.75
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.375
+2-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.25	0.75
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus146_106_1 locus146_106_2 
+ Allele diversity: 
+
+1	0.688
+2	0.312
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.375
+1-2	0.625
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.688	0.312
+b_weir	-0.094	-0.094
+c_weir	0.312	0.312
+Fis.Weir	-0.429	-0.429
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.429
+--- 
+ 
+ Heterozygosity: 0.625 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus148_62_1 locus148_62_2 
+ Allele diversity: 
+
+1	0.125
+2	0.875
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.25
+2-2	0.75
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.125	0.875
+b_weir	-0.013	-0.013
+c_weir	0.125	0.125
+Fis.Weir	-0.111	-0.111
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.111
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus151_48_1 locus151_48_2 
+ Allele diversity: 
+
+1	0.375
+2	0.625
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.5
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.375	0.625
+b_weir	-0.008	-0.008
+c_weir	0.25	0.25
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus157_48_1 locus157_48_2 
+ Allele diversity: 
+
+1	0.438
+2	0.562
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.625
+2-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.438	0.562
+b_weir	-0.06	-0.06
+c_weir	0.312	0.312
+Fis.Weir	-0.24	-0.24
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.24
+--- 
+ 
+ Heterozygosity: 0.625 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus161_99_1 locus161_99_2 
+ Allele diversity: 
+
+1	0.438
+2	0.562
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.25
+1-2	0.375
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.438	0.562
+b_weir	0.069	0.069
+c_weir	0.188	0.188
+Fis.Weir	0.268	0.268
+
+ Fis for locus (Weir and Cockerham 1984):
+0.268
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus170_49_1 locus170_49_2 
+ Allele diversity: 
+
+1	0.375
+2	0.625
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.188
+1-2	0.375
+2-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.375	0.625
+b_weir	0.056	0.056
+c_weir	0.188	0.188
+Fis.Weir	0.231	0.231
+
+ Fis for locus (Weir and Cockerham 1984):
+0.231
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus184_68_1 locus184_68_2 
+ Allele diversity: 
+
+1	0.781
+2	0.219
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.781	0.219
+b_weir	-0.044	-0.044
+c_weir	0.219	0.219
+Fis.Weir	-0.25	-0.25
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.25
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus186_85_1 locus186_85_2 
+ Allele diversity: 
+
+1	0.656
+2	0.344
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.438
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.656	0.344
+b_weir	0.015	0.015
+c_weir	0.219	0.219
+Fis.Weir	0.062	0.062
+
+ Fis for locus (Weir and Cockerham 1984):
+0.062
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus188_46_1 locus188_46_2 
+ Allele diversity: 
+
+1	0.219
+2	0.781
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.438
+2-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.219	0.781
+b_weir	-0.044	-0.044
+c_weir	0.219	0.219
+Fis.Weir	-0.25	-0.25
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.25
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus189_48_1 locus189_48_2 
+ Allele diversity: 
+
+1	0.656
+2	0.344
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.438
+2-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.656	0.344
+b_weir	0.015	0.015
+c_weir	0.219	0.219
+Fis.Weir	0.062	0.062
+
+ Fis for locus (Weir and Cockerham 1984):
+0.062
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus190_48_1 locus190_48_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.075	-0.075
+c_weir	0.281	0.281
+Fis.Weir	-0.364	-0.364
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.364
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus191_55_1 locus191_55_2 
+ Allele diversity: 
+
+1	0.594
+2	0.406
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.375
+1-2	0.438
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.594	0.406
+b_weir	0.031	0.031
+c_weir	0.219	0.219
+Fis.Weir	0.125	0.125
+
+ Fis for locus (Weir and Cockerham 1984):
+0.125
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus202_38_1 locus202_38_2 
+ Allele diversity: 
+
+1	0.344
+2	0.656
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.438
+2-2	0.438
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.344	0.656
+b_weir	0.015	0.015
+c_weir	0.219	0.219
+Fis.Weir	0.062	0.062
+
+ Fis for locus (Weir and Cockerham 1984):
+0.062
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus215_54_1 locus215_54_2 
+ Allele diversity: 
+
+1	0.625
+2	0.375
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.625
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.625	0.375
+b_weir	-0.073	-0.073
+c_weir	0.312	0.312
+Fis.Weir	-0.304	-0.304
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.304
+--- 
+ 
+ Heterozygosity: 0.625 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus227_108_1 locus227_108_2 
+ Allele diversity: 
+
+1	0.625
+2	0.375
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.125
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.625	0.375
+b_weir	0.185	0.185
+c_weir	0.062	0.062
+Fis.Weir	0.748	0.748
+
+ Fis for locus (Weir and Cockerham 1984):
+0.748
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus235_75_1 locus235_75_2 
+ Allele diversity: 
+
+1	0.219
+2	0.781
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.438
+2-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.219	0.781
+b_weir	-0.044	-0.044
+c_weir	0.219	0.219
+Fis.Weir	-0.25	-0.25
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.25
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus236_63_1 locus236_63_2 
+ Allele diversity: 
+
+1	0.656
+2	0.344
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.562
+1-2	0.188
+2-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.656	0.344
+b_weir	0.144	0.144
+c_weir	0.094	0.094
+Fis.Weir	0.605	0.605
+
+ Fis for locus (Weir and Cockerham 1984):
+0.605
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus237_75_1 locus237_75_2 
+ Allele diversity: 
+
+1	1
+--- 
+ 
+ Genotype diversity: 
+
+1-1	1
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1
+Population.Frequency	1
+b_weir	0
+c_weir	0
+Fis.Weir	0
+
+ Fis for locus (Weir and Cockerham 1984):
+1
+--- 
+ 
+ Heterozygosity: 0 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus239_75_1 locus239_75_2 
+ Allele diversity: 
+
+1	0.938
+2	0.062
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.875
+1-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.938	0.062
+b_weir	-0.002	-0.002
+c_weir	0.062	0.062
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus248_64_1 locus248_64_2 
+ Allele diversity: 
+
+1	0.562
+2	0.438
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.375
+1-2	0.375
+2-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.562	0.438
+b_weir	0.069	0.069
+c_weir	0.188	0.188
+Fis.Weir	0.268	0.268
+
+ Fis for locus (Weir and Cockerham 1984):
+0.268
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus255_56_1 locus255_56_2 
+ Allele diversity: 
+
+1	0.875
+2	0.125
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.75
+1-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.875	0.125
+b_weir	-0.013	-0.013
+c_weir	0.125	0.125
+Fis.Weir	-0.111	-0.111
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.111
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus256_32_1 locus256_32_2 
+ Allele diversity: 
+
+1	0.938
+2	0.062
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.875
+1-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.938	0.062
+b_weir	-0.002	-0.002
+c_weir	0.062	0.062
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus263_54_1 locus263_54_2 
+ Allele diversity: 
+
+1	0.094
+2	0.906
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.188
+2-2	0.812
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.094	0.906
+b_weir	-0.006	-0.006
+c_weir	0.094	0.094
+Fis.Weir	-0.071	-0.071
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.071
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus264_70_1 locus264_70_2 
+ Allele diversity: 
+
+1	0.75
+2	0.25
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.5
+1-2	0.5
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.75	0.25
+b_weir	-0.058	-0.058
+c_weir	0.25	0.25
+Fis.Weir	-0.304	-0.304
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.304
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus274_94_1 locus274_94_2 
+ Allele diversity: 
+
+1	0.938
+2	0.062
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.875
+1-2	0.125
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.938	0.062
+b_weir	-0.002	-0.002
+c_weir	0.062	0.062
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.125 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus280_105_1 locus280_105_2 
+ Allele diversity: 
+
+1	0.5
+2	0.5
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.375
+2-2	0.312
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.5	0.5
+b_weir	0.073	0.073
+c_weir	0.188	0.188
+Fis.Weir	0.28	0.28
+
+ Fis for locus (Weir and Cockerham 1984):
+0.28
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus282_109_1 locus282_109_2 
+ Allele diversity: 
+
+1	0.375
+2	0.625
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.5
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.375	0.625
+b_weir	-0.008	-0.008
+c_weir	0.25	0.25
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus286_32_1 locus286_32_2 
+ Allele diversity: 
+
+1	0.875
+2	0.125
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.75
+1-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.875	0.125
+b_weir	-0.013	-0.013
+c_weir	0.125	0.125
+Fis.Weir	-0.111	-0.111
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.111
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus291_79_1 locus291_79_2 
+ Allele diversity: 
+
+1	0.531
+2	0.469
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.312
+1-2	0.438
+2-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.531	0.469
+b_weir	0.04	0.04
+c_weir	0.219	0.219
+Fis.Weir	0.153	0.153
+
+ Fis for locus (Weir and Cockerham 1984):
+0.153
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus292_97_1 locus292_97_2 
+ Allele diversity: 
+
+1	0.719
+2	0.281
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.719	0.281
+b_weir	-0.075	-0.075
+c_weir	0.281	0.281
+Fis.Weir	-0.364	-0.364
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.364
+--- 
+ 
+ Heterozygosity: 0.562 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus296_72_1 locus296_72_2 
+ Allele diversity: 
+
+1	0.812
+2	0.188
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.688
+1-2	0.25
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.812	0.188
+b_weir	0.033	0.033
+c_weir	0.125	0.125
+Fis.Weir	0.211	0.211
+
+ Fis for locus (Weir and Cockerham 1984):
+0.211
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus301_62_1 locus301_62_2 
+ Allele diversity: 
+
+1	0.625
+2	0.375
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.375
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.625	0.375
+b_weir	0.056	0.056
+c_weir	0.188	0.188
+Fis.Weir	0.231	0.231
+
+ Fis for locus (Weir and Cockerham 1984):
+0.231
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus314_91_1 locus314_91_2 
+ Allele diversity: 
+
+1	0.375
+2	0.625
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.125
+1-2	0.5
+2-2	0.375
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.375	0.625
+b_weir	-0.008	-0.008
+c_weir	0.25	0.25
+Fis.Weir	-0.034	-0.034
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.034
+--- 
+ 
+ Heterozygosity: 0.5 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus321_95_1 locus321_95_2 
+ Allele diversity: 
+
+1	0.219
+2	0.781
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.438
+2-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.219	0.781
+b_weir	-0.044	-0.044
+c_weir	0.219	0.219
+Fis.Weir	-0.25	-0.25
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.25
+--- 
+ 
+ Heterozygosity: 0.438 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus322_43_1 locus322_43_2 
+ Allele diversity: 
+
+1	0.625
+2	0.375
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.438
+1-2	0.375
+2-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.625	0.375
+b_weir	0.056	0.056
+c_weir	0.188	0.188
+Fis.Weir	0.231	0.231
+
+ Fis for locus (Weir and Cockerham 1984):
+0.231
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus323_29_1 locus323_29_2 
+ Allele diversity: 
+
+1	0.844
+2	0.156
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.75
+1-2	0.188
+2-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.844	0.156
+b_weir	0.044	0.044
+c_weir	0.094	0.094
+Fis.Weir	0.318	0.318
+
+ Fis for locus (Weir and Cockerham 1984):
+0.318
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus329_110_1 locus329_110_2 
+ Allele diversity: 
+
+1	0.188
+2	0.812
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.25
+2-2	0.688
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.188	0.812
+b_weir	0.033	0.033
+c_weir	0.125	0.125
+Fis.Weir	0.211	0.211
+
+ Fis for locus (Weir and Cockerham 1984):
+0.211
+--- 
+ 
+ Heterozygosity: 0.25 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus332_65_1 locus332_65_2 
+ Allele diversity: 
+
+1	0.969
+2	0.031
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.938
+1-2	0.062
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.969	0.031
+b_weir	0	0
+c_weir	0.031	0.031
+Fis.Weir	0	0
+
+ Fis for locus (Weir and Cockerham 1984):
+0
+--- 
+ 
+ Heterozygosity: 0.062 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus334_102_1 locus334_102_2 
+ Allele diversity: 
+
+1	0.906
+2	0.094
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.812
+1-2	0.188
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.906	0.094
+b_weir	-0.006	-0.006
+c_weir	0.094	0.094
+Fis.Weir	-0.071	-0.071
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.071
+--- 
+ 
+ Heterozygosity: 0.188 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus358_75_1 locus358_75_2 
+ Allele diversity: 
+
+1	0.156
+2	0.844
+--- 
+ 
+ Genotype diversity: 
+
+1-2	0.312
+2-2	0.688
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.156	0.844
+b_weir	-0.021	-0.021
+c_weir	0.156	0.156
+Fis.Weir	-0.154	-0.154
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.154
+--- 
+ 
+ Heterozygosity: 0.312 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus359_69_1 locus359_69_2 
+ Allele diversity: 
+
+1	0.25
+2	0.75
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.375
+2-2	0.562
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.25	0.75
+b_weir	0.006	0.006
+c_weir	0.188	0.188
+Fis.Weir	0.032	0.032
+
+ Fis for locus (Weir and Cockerham 1984):
+0.032
+--- 
+ 
+ Heterozygosity: 0.375 
+ 
+ ---------------------------------------------------- 
+ 
+
+Locus: locus360_68_1 locus360_68_2 
+ Allele diversity: 
+
+1	0.406
+2	0.594
+--- 
+ 
+ Genotype diversity: 
+
+1-1	0.062
+1-2	0.688
+2-2	0.25
+--- 
+ 
+ Fis per allele (Weir and Cockerham 1984): 
+
+	1	2
+Population.Frequency	0.406	0.594
+b_weir	-0.098	-0.098
+c_weir	0.344	0.344
+Fis.Weir	-0.398	-0.398
+
+ Fis for locus (Weir and Cockerham 1984):
+-0.398
+--- 
+ 
+ Heterozygosity: 0.688 
+ 
+ ---------------------------------------------------- 
+ 
+
+Loci names -- Note -- odd columns are set as loci names for further results 
+
+"x"
+"1"	"Dc00544_43_1"
+"2"	"Dc00544_43_2"
+"3"	"Dc01018_91_1"
+"4"	"Dc01018_91_2"
+"5"	"Dc01661_29_1"
+"6"	"Dc01661_29_2"
+"7"	"Dc01707_62_1"
+"8"	"Dc01707_62_2"
+"9"	"Dc01784_76_1"
+"10"	"Dc01784_76_2"
+"11"	"Dc02951_130_1"
+"12"	"Dc02951_130_2"
+"13"	"Dc03456_138_1"
+"14"	"Dc03456_138_2"
+"15"	"Dc03556_63_1"
+"16"	"Dc03556_63_2"
+"17"	"Dc03887_62_1"
+"18"	"Dc03887_62_2"
+"19"	"Dc05864_26_1"
+"20"	"Dc05864_26_2"
+"21"	"Dc06503_101_1"
+"22"	"Dc06503_101_2"
+"23"	"Dc07300_73_1"
+"24"	"Dc07300_73_2"
+"25"	"Dc07937_35_1"
+"26"	"Dc07937_35_2"
+"27"	"Dc08054_20_1"
+"28"	"Dc08054_20_2"
+"29"	"Dc08189_32_1"
+"30"	"Dc08189_32_2"
+"31"	"Dc08463_49_1"
+"32"	"Dc08463_49_2"
+"33"	"Dc08578_36_1"
+"34"	"Dc08578_36_2"
+"35"	"Dc08865_87_1"
+"36"	"Dc08865_87_2"
+"37"	"Dc10003_34_1"
+"38"	"Dc10003_34_2"
+"39"	"Dc10390_82_1"
+"40"	"Dc10390_82_2"
+"41"	"Dc10878_74_1"
+"42"	"Dc10878_74_2"
+"43"	"Dc10885_39_1"
+"44"	"Dc10885_39_2"
+"45"	"Dc11062_21_1"
+"46"	"Dc11062_21_2"
+"47"	"Dc11203_81_1"
+"48"	"Dc11203_81_2"
+"49"	"Dc11295_127_1"
+"50"	"Dc11295_127_2"
+"51"	"Dc13159_47_1"
+"52"	"Dc13159_47_2"
+"53"	"Dc13592_20_1"
+"54"	"Dc13592_20_2"
+"55"	"Dc14022_61_1"
+"56"	"Dc14022_61_2"
+"57"	"Dc14945_86_1"
+"58"	"Dc14945_86_2"
+"59"	"Dc16747_57_1"
+"60"	"Dc16747_57_2"
+"61"	"Dc16962_31_1"
+"62"	"Dc16962_31_2"
+"63"	"Dc18951_66_1"
+"64"	"Dc18951_66_2"
+"65"	"Dc20232_69_1"
+"66"	"Dc20232_69_2"
+"67"	"Dc21465_55_1"
+"68"	"Dc21465_55_2"
+"69"	"Dc21637_22_1"
+"70"	"Dc21637_22_2"
+"71"	"Dc22013_26_1"
+"72"	"Dc22013_26_2"
+"73"	"Dc22883_31_1"
+"74"	"Dc22883_31_2"
+"75"	"Dc22887_42_1"
+"76"	"Dc22887_42_2"
+"77"	"Dc27955_108_1"
+"78"	"Dc27955_108_2"
+"79"	"Dc28124_67_1"
+"80"	"Dc28124_67_2"
+"81"	"Dc28776_34_1"
+"82"	"Dc28776_34_2"
+"83"	"Dc30071_39_1"
+"84"	"Dc30071_39_2"
+"85"	"Dc31007_38_1"
+"86"	"Dc31007_38_2"
+"87"	"Dc33714_53_1"
+"88"	"Dc33714_53_2"
+"89"	"Dc33907_80_1"
+"90"	"Dc33907_80_2"
+"91"	"Dc34902_33_1"
+"92"	"Dc34902_33_2"
+"93"	"Dc35779_46_1"
+"94"	"Dc35779_46_2"
+"95"	"Dc36571_143_1"
+"96"	"Dc36571_143_2"
+"97"	"Dc36616_24_1"
+"98"	"Dc36616_24_2"
+"99"	"Dc36767_28_1"
+"100"	"Dc36767_28_2"
+"101"	"Dc40235_127_1"
+"102"	"Dc40235_127_2"
+"103"	"Dc41234_66_1"
+"104"	"Dc41234_66_2"
+"105"	"Dc46984_53_1"
+"106"	"Dc46984_53_2"
+"107"	"Dc47572_71_1"
+"108"	"Dc47572_71_2"
+"109"	"Dc47935_30_1"
+"110"	"Dc47935_30_2"
+"111"	"Dc48207_129_1"
+"112"	"Dc48207_129_2"
+"113"	"Dc48950_19_1"
+"114"	"Dc48950_19_2"
+"115"	"Dc49080_112_1"
+"116"	"Dc49080_112_2"
+"117"	"Dc49184_83_1"
+"118"	"Dc49184_83_2"
+"119"	"Dc51020_135_1"
+"120"	"Dc51020_135_2"
+"121"	"Dc52523_27_1"
+"122"	"Dc52523_27_2"
+"123"	"Dc55481_47_1"
+"124"	"Dc55481_47_2"
+"125"	"Dc58248_52_1"
+"126"	"Dc58248_52_2"
+"127"	"Dc62188_40_1"
+"128"	"Dc62188_40_2"
+"129"	"Dc67011_53_1"
+"130"	"Dc67011_53_2"
+"131"	"locus003_111_1"
+"132"	"locus003_111_2"
+"133"	"locus004_111_1"
+"134"	"locus004_111_2"
+"135"	"locus005_111_1"
+"136"	"locus005_111_2"
+"137"	"locus006_64_1"
+"138"	"locus006_64_2"
+"139"	"locus008_89_1"
+"140"	"locus008_89_2"
+"141"	"locus013_59_1"
+"142"	"locus013_59_2"
+"143"	"locus014_111_1"
+"144"	"locus014_111_2"
+"145"	"locus016_71_1"
+"146"	"locus016_71_2"
+"147"	"locus019_107_1"
+"148"	"locus019_107_2"
+"149"	"locus022_48_1"
+"150"	"locus022_48_2"
+"151"	"locus024_111_1"
+"152"	"locus024_111_2"
+"153"	"locus025_110_1"
+"154"	"locus025_110_2"
+"155"	"locus027_106_1"
+"156"	"locus027_106_2"
+"157"	"locus030_106_1"
+"158"	"locus030_106_2"
+"159"	"locus035_110_1"
+"160"	"locus035_110_2"
+"161"	"locus038_103_1"
+"162"	"locus038_103_2"
+"163"	"locus039_94_1"
+"164"	"locus039_94_2"
+"165"	"locus040_70_1"
+"166"	"locus040_70_2"
+"167"	"locus041_109_1"
+"168"	"locus041_109_2"
+"169"	"locus045_96_1"
+"170"	"locus045_96_2"
+"171"	"locus047_111_1"
+"172"	"locus047_111_2"
+"173"	"locus048_101_1"
+"174"	"locus048_101_2"
+"175"	"locus053_45_1"
+"176"	"locus053_45_2"
+"177"	"locus055_92_1"
+"178"	"locus055_92_2"
+"179"	"locus056_88_1"
+"180"	"locus056_88_2"
+"181"	"locus058_111_1"
+"182"	"locus058_111_2"
+"183"	"locus060_111_1"
+"184"	"locus060_111_2"
+"185"	"locus061_60_1"
+"186"	"locus061_60_2"
+"187"	"locus062_111_1"
+"188"	"locus062_111_2"
+"189"	"locus064_111_1"
+"190"	"locus064_111_2"
+"191"	"locus065_111_1"
+"192"	"locus065_111_2"
+"193"	"locus069_67_1"
+"194"	"locus069_67_2"
+"195"	"locus074_72_1"
+"196"	"locus074_72_2"
+"197"	"locus076_49_1"
+"198"	"locus076_49_2"
+"199"	"locus077_70_1"
+"200"	"locus077_70_2"
+"201"	"locus080_79_1"
+"202"	"locus080_79_2"
+"203"	"locus088_92_1"
+"204"	"locus088_92_2"
+"205"	"locus093_105_1"
+"206"	"locus093_105_2"
+"207"	"locus096_96_1"
+"208"	"locus096_96_2"
+"209"	"locus098_89_1"
+"210"	"locus098_89_2"
+"211"	"locus100_67_1"
+"212"	"locus100_67_2"
+"213"	"locus102_92_1"
+"214"	"locus102_92_2"
+"215"	"locus106_97_1"
+"216"	"locus106_97_2"
+"217"	"locus116_84_1"
+"218"	"locus116_84_2"
+"219"	"locus119_111_1"
+"220"	"locus119_111_2"
+"221"	"locus120_93_1"
+"222"	"locus120_93_2"
+"223"	"locus128_90_1"
+"224"	"locus128_90_2"
+"225"	"locus129_30_1"
+"226"	"locus129_30_2"
+"227"	"locus130_94_1"
+"228"	"locus130_94_2"
+"229"	"locus134_83_1"
+"230"	"locus134_83_2"
+"231"	"locus135_60_1"
+"232"	"locus135_60_2"
+"233"	"locus137_107_1"
+"234"	"locus137_107_2"
+"235"	"locus139_94_1"
+"236"	"locus139_94_2"
+"237"	"locus140_50_1"
+"238"	"locus140_50_2"
+"239"	"locus146_106_1"
+"240"	"locus146_106_2"
+"241"	"locus148_62_1"
+"242"	"locus148_62_2"
+"243"	"locus151_48_1"
+"244"	"locus151_48_2"
+"245"	"locus157_48_1"
+"246"	"locus157_48_2"
+"247"	"locus161_99_1"
+"248"	"locus161_99_2"
+"249"	"locus170_49_1"
+"250"	"locus170_49_2"
+"251"	"locus184_68_1"
+"252"	"locus184_68_2"
+"253"	"locus186_85_1"
+"254"	"locus186_85_2"
+"255"	"locus188_46_1"
+"256"	"locus188_46_2"
+"257"	"locus189_48_1"
+"258"	"locus189_48_2"
+"259"	"locus190_48_1"
+"260"	"locus190_48_2"
+"261"	"locus191_55_1"
+"262"	"locus191_55_2"
+"263"	"locus202_38_1"
+"264"	"locus202_38_2"
+"265"	"locus215_54_1"
+"266"	"locus215_54_2"
+"267"	"locus227_108_1"
+"268"	"locus227_108_2"
+"269"	"locus235_75_1"
+"270"	"locus235_75_2"
+"271"	"locus236_63_1"
+"272"	"locus236_63_2"
+"273"	"locus237_75_1"
+"274"	"locus237_75_2"
+"275"	"locus239_75_1"
+"276"	"locus239_75_2"
+"277"	"locus248_64_1"
+"278"	"locus248_64_2"
+"279"	"locus255_56_1"
+"280"	"locus255_56_2"
+"281"	"locus256_32_1"
+"282"	"locus256_32_2"
+"283"	"locus263_54_1"
+"284"	"locus263_54_2"
+"285"	"locus264_70_1"
+"286"	"locus264_70_2"
+"287"	"locus274_94_1"
+"288"	"locus274_94_2"
+"289"	"locus280_105_1"
+"290"	"locus280_105_2"
+"291"	"locus282_109_1"
+"292"	"locus282_109_2"
+"293"	"locus286_32_1"
+"294"	"locus286_32_2"
+"295"	"locus291_79_1"
+"296"	"locus291_79_2"
+"297"	"locus292_97_1"
+"298"	"locus292_97_2"
+"299"	"locus296_72_1"
+"300"	"locus296_72_2"
+"301"	"locus301_62_1"
+"302"	"locus301_62_2"
+"303"	"locus314_91_1"
+"304"	"locus314_91_2"
+"305"	"locus321_95_1"
+"306"	"locus321_95_2"
+"307"	"locus322_43_1"
+"308"	"locus322_43_2"
+"309"	"locus323_29_1"
+"310"	"locus323_29_2"
+"311"	"locus329_110_1"
+"312"	"locus329_110_2"
+"313"	"locus332_65_1"
+"314"	"locus332_65_2"
+"315"	"locus334_102_1"
+"316"	"locus334_102_2"
+"317"	"locus358_75_1"
+"318"	"locus358_75_2"
+"319"	"locus359_69_1"
+"320"	"locus359_69_2"
+"321"	"locus360_68_1"
+"322"	"locus360_68_2"
+
+ 
+ Calculations made according to Nei 1983 
+ Fis values: 
+
+Dc00544_43_1	-0.071
+Dc01018_91_1	0.336
+Dc01661_29_1	0.032
+Dc01707_62_1	0.016
+Dc01784_76_1	-0.154
+Dc02951_130_1	-0.612
+Dc03456_138_1	0.032
+Dc03556_63_1	0.28
+Dc03887_62_1	0.211
+Dc05864_26_1	-0.111
+Dc06503_101_1	0.032
+Dc07300_73_1	-0.154
+Dc07937_35_1	-0.098
+Dc08054_20_1	0.748
+Dc08189_32_1	0.318
+Dc08463_49_1	-0.132
+Dc08578_36_1	-0.05
+Dc08865_87_1	-0.25
+Dc10003_34_1	-0.304
+Dc10390_82_1	-0.034
+Dc10878_74_1	0.159
+Dc10885_39_1	-0.216
+Dc11062_21_1	0.362
+Dc11203_81_1	0.4
+Dc11295_127_1	1
+Dc13159_47_1	-0.05
+Dc13592_20_1	0.336
+Dc14022_61_1	0.159
+Dc14945_86_1	-0.134
+Dc16747_57_1	0.231
+Dc16962_31_1	-0.034
+Dc18951_66_1	-0.2
+Dc20232_69_1	-0.05
+Dc21465_55_1	0.153
+Dc21637_22_1	0.125
+Dc22013_26_1	0.231
+Dc22883_31_1	-0.134
+Dc22887_42_1	-0.071
+Dc27955_108_1	-0.132
+Dc28124_67_1	1
+Dc28776_34_1	-0.154
+Dc30071_39_1	-0.05
+Dc31007_38_1	0.032
+Dc33714_53_1	0.159
+Dc33907_80_1	-0.034
+Dc34902_33_1	0.159
+Dc35779_46_1	-0.154
+Dc36571_143_1	0.362
+Dc36616_24_1	-0.034
+Dc36767_28_1	-0.132
+Dc40235_127_1	0.211
+Dc41234_66_1	-0.25
+Dc46984_53_1	-0.132
+Dc47572_71_1	1
+Dc47935_30_1	0.318
+Dc48207_129_1	0.125
+Dc48950_19_1	0
+Dc49080_112_1	0.559
+Dc49184_83_1	-0.216
+Dc51020_135_1	-0.2
+Dc52523_27_1	-0.2
+Dc55481_47_1	0.268
+Dc58248_52_1	-0.05
+Dc62188_40_1	-0.304
+Dc67011_53_1	0.159
+locus003_111_1	-0.5
+locus004_111_1	0.4
+locus005_111_1	-0.154
+locus006_64_1	-0.05
+locus008_89_1	-0.05
+locus013_59_1	1
+locus014_111_1	0.118
+locus016_71_1	-0.071
+locus019_107_1	-0.034
+locus022_48_1	-0.05
+locus024_111_1	0.118
+locus025_110_1	0.231
+locus027_106_1	-0.132
+locus030_106_1	0.159
+locus035_110_1	-0.154
+locus038_103_1	-0.111
+locus039_94_1	-0.134
+locus040_70_1	0.032
+locus041_109_1	0.125
+locus045_96_1	0.477
+locus047_111_1	-0.134
+locus048_101_1	0.032
+locus053_45_1	1
+locus055_92_1	0.062
+locus056_88_1	0.062
+locus058_111_1	0.032
+locus060_111_1	0.118
+locus061_60_1	-0.05
+locus062_111_1	-0.134
+locus064_111_1	0.268
+locus065_111_1	-0.111
+locus069_67_1	0.016
+locus074_72_1	-0.071
+locus076_49_1	0.28
+locus077_70_1	-0.364
+locus080_79_1	-0.098
+locus088_92_1	-0.098
+locus093_105_1	0.257
+locus096_96_1	-0.132
+locus098_89_1	0.4
+locus100_67_1	-0.5
+locus102_92_1	0.38
+locus106_97_1	-0.132
+locus116_84_1	-0.2
+locus119_111_1	0.28
+locus120_93_1	-0.154
+locus128_90_1	-0.304
+locus129_30_1	-0.071
+locus130_94_1	-0.304
+locus134_83_1	0.016
+locus135_60_1	-0.154
+locus137_107_1	0.318
+locus139_94_1	0.032
+locus140_50_1	0.032
+locus146_106_1	-0.429
+locus148_62_1	-0.111
+locus151_48_1	-0.034
+locus157_48_1	-0.24
+locus161_99_1	0.268
+locus170_49_1	0.231
+locus184_68_1	-0.25
+locus186_85_1	0.062
+locus188_46_1	-0.25
+locus189_48_1	0.062
+locus190_48_1	-0.364
+locus191_55_1	0.125
+locus202_38_1	0.062
+locus215_54_1	-0.304
+locus227_108_1	0.748
+locus235_75_1	-0.25
+locus236_63_1	0.605
+locus237_75_1	1
+locus239_75_1	-0.034
+locus248_64_1	0.268
+locus255_56_1	-0.111
+locus256_32_1	-0.034
+locus263_54_1	-0.071
+locus264_70_1	-0.304
+locus274_94_1	-0.034
+locus280_105_1	0.28
+locus282_109_1	-0.034
+locus286_32_1	-0.111
+locus291_79_1	0.153
+locus292_97_1	-0.364
+locus296_72_1	0.211
+locus301_62_1	0.231
+locus314_91_1	-0.034
+locus321_95_1	-0.25
+locus322_43_1	0.231
+locus323_29_1	0.318
+locus329_110_1	0.211
+locus332_65_1	0
+locus334_102_1	-0.071
+locus358_75_1	-0.154
+locus359_69_1	0.032
+locus360_68_1	-0.398
+
+ p values: 
+
+Dc00544_43_1	0.545
+Dc01018_91_1	0.091
+Dc01661_29_1	0.727
+Dc01707_62_1	0.727
+Dc01784_76_1	0.364
+Dc02951_130_1	0.182
+Dc03456_138_1	0.545
+Dc03556_63_1	0.273
+Dc03887_62_1	0.182
+Dc05864_26_1	0.545
+Dc06503_101_1	0.455
+Dc07300_73_1	0.273
+Dc07937_35_1	0.455
+Dc08054_20_1	0.091
+Dc08189_32_1	0.364
+Dc08463_49_1	0.636
+Dc08578_36_1	0.727
+Dc08865_87_1	0.182
+Dc10003_34_1	0.182
+Dc10390_82_1	0.545
+Dc10878_74_1	0.182
+Dc10885_39_1	0.545
+Dc11062_21_1	0.182
+Dc11203_81_1	0.091
+Dc11295_127_1	1
+Dc13159_47_1	0.636
+Dc13592_20_1	0.364
+Dc14022_61_1	0.364
+Dc14945_86_1	0.636
+Dc16747_57_1	0.091
+Dc16962_31_1	0.545
+Dc18951_66_1	0.364
+Dc20232_69_1	0.455
+Dc21465_55_1	0.273
+Dc21637_22_1	0.545
+Dc22013_26_1	0.182
+Dc22883_31_1	0.364
+Dc22887_42_1	0.727
+Dc27955_108_1	0.455
+Dc28124_67_1	1
+Dc28776_34_1	0.455
+Dc30071_39_1	0.545
+Dc31007_38_1	0.636
+Dc33714_53_1	0.455
+Dc33907_80_1	0.818
+Dc34902_33_1	0.455
+Dc35779_46_1	0.455
+Dc36571_143_1	0.273
+Dc36616_24_1	0.545
+Dc36767_28_1	0.545
+Dc40235_127_1	0.455
+Dc41234_66_1	0.182
+Dc46984_53_1	0.182
+Dc47572_71_1	1
+Dc47935_30_1	0.091
+Dc48207_129_1	0.545
+Dc48950_19_1	1
+Dc49080_112_1	0.091
+Dc49184_83_1	0.364
+Dc51020_135_1	0.545
+Dc52523_27_1	0.182
+Dc55481_47_1	0.364
+Dc58248_52_1	0.364
+Dc62188_40_1	0.182
+Dc67011_53_1	0.455
+locus003_111_1	0.091
+locus004_111_1	0.182
+locus005_111_1	0.182
+locus006_64_1	0.455
+locus008_89_1	0.455
+locus013_59_1	1
+locus014_111_1	0.273
+locus016_71_1	0.636
+locus019_107_1	0.455
+locus022_48_1	0.727
+locus024_111_1	0.364
+locus025_110_1	0.455
+locus027_106_1	0.455
+locus030_106_1	0.455
+locus035_110_1	0.545
+locus038_103_1	0.636
+locus039_94_1	0.273
+locus040_70_1	0.636
+locus041_109_1	0.455
+locus045_96_1	0.182
+locus047_111_1	0.364
+locus048_101_1	0.273
+locus053_45_1	1
+locus055_92_1	0.455
+locus056_88_1	0.636
+locus058_111_1	0.455
+locus060_111_1	0.455
+locus061_60_1	0.455
+locus062_111_1	0.545
+locus064_111_1	0.182
+locus065_111_1	0.455
+locus069_67_1	0.455
+locus074_72_1	0.455
+locus076_49_1	0.091
+locus077_70_1	0.091
+locus080_79_1	0.636
+locus088_92_1	0.364
+locus093_105_1	0.273
+locus096_96_1	0.364
+locus098_89_1	0.091
+locus100_67_1	0.182
+locus102_92_1	0.091
+locus106_97_1	0.182
+locus116_84_1	0.182
+locus119_111_1	0.091
+locus120_93_1	0.364
+locus128_90_1	0.182
+locus129_30_1	0.364
+locus130_94_1	0.182
+locus134_83_1	0.455
+locus135_60_1	0.727
+locus137_107_1	0.273
+locus139_94_1	0.364
+locus140_50_1	0.636
+locus146_106_1	0.091
+locus148_62_1	0.273
+locus151_48_1	0.636
+locus157_48_1	0.455
+locus161_99_1	0.273
+locus170_49_1	0.364
+locus184_68_1	0.182
+locus186_85_1	0.636
+locus188_46_1	0.091
+locus189_48_1	0.545
+locus190_48_1	0.273
+locus191_55_1	0.273
+locus202_38_1	0.364
+locus215_54_1	0.182
+locus227_108_1	0.091
+locus235_75_1	0.182
+locus236_63_1	0.091
+locus237_75_1	1
+locus239_75_1	0.727
+locus248_64_1	0.545
+locus255_56_1	0.273
+locus256_32_1	0.636
+locus263_54_1	0.636
+locus264_70_1	0.273
+locus274_94_1	0.636
+locus280_105_1	0.091
+locus282_109_1	0.636
+locus286_32_1	0.455
+locus291_79_1	0.545
+locus292_97_1	0.182
+locus296_72_1	0.182
+locus301_62_1	0.455
+locus314_91_1	0.545
+locus321_95_1	0.455
+locus322_43_1	0.455
+locus323_29_1	0.273
+locus329_110_1	0.091
+locus332_65_1	1
+locus334_102_1	0.455
+locus358_75_1	0.545
+locus359_69_1	0.545
+locus360_68_1	0.091
+
+ Mean fis value: 
+
+0.045
+
+ Mean p value: 
+
+0.412
+
+ 
+ Calculations made according to Weir and Cockerham 1984 
+ Fis values: 
+
+Dc00544_43_1	-0.071
+Dc01018_91_1	0.336
+Dc01661_29_1	0.032
+Dc01707_62_1	0.016
+Dc01784_76_1	-0.154
+Dc02951_130_1	-0.612
+Dc03456_138_1	0.032
+Dc03556_63_1	0.28
+Dc03887_62_1	0.211
+Dc05864_26_1	-0.111
+Dc06503_101_1	0.032
+Dc07300_73_1	-0.154
+Dc07937_35_1	-0.098
+Dc08054_20_1	0.748
+Dc08189_32_1	0.318
+Dc08463_49_1	-0.132
+Dc08578_36_1	-0.05
+Dc08865_87_1	-0.25
+Dc10003_34_1	-0.304
+Dc10390_82_1	-0.034
+Dc10878_74_1	0.159
+Dc10885_39_1	-0.216
+Dc11062_21_1	0.362
+Dc11203_81_1	0.4
+Dc11295_127_1	1
+Dc13159_47_1	-0.05
+Dc13592_20_1	0.336
+Dc14022_61_1	0.159
+Dc14945_86_1	-0.134
+Dc16747_57_1	0.231
+Dc16962_31_1	-0.034
+Dc18951_66_1	-0.2
+Dc20232_69_1	-0.05
+Dc21465_55_1	0.153
+Dc21637_22_1	0.125
+Dc22013_26_1	0.231
+Dc22883_31_1	-0.134
+Dc22887_42_1	-0.071
+Dc27955_108_1	-0.132
+Dc28124_67_1	1
+Dc28776_34_1	-0.154
+Dc30071_39_1	-0.05
+Dc31007_38_1	0.032
+Dc33714_53_1	0.159
+Dc33907_80_1	-0.034
+Dc34902_33_1	0.159
+Dc35779_46_1	-0.154
+Dc36571_143_1	0.362
+Dc36616_24_1	-0.034
+Dc36767_28_1	-0.132
+Dc40235_127_1	0.211
+Dc41234_66_1	-0.25
+Dc46984_53_1	-0.132
+Dc47572_71_1	1
+Dc47935_30_1	0.318
+Dc48207_129_1	0.125
+Dc48950_19_1	0
+Dc49080_112_1	0.559
+Dc49184_83_1	-0.216
+Dc51020_135_1	-0.2
+Dc52523_27_1	-0.2
+Dc55481_47_1	0.268
+Dc58248_52_1	-0.05
+Dc62188_40_1	-0.304
+Dc67011_53_1	0.159
+locus003_111_1	-0.5
+locus004_111_1	0.4
+locus005_111_1	-0.154
+locus006_64_1	-0.05
+locus008_89_1	-0.05
+locus013_59_1	1
+locus014_111_1	0.118
+locus016_71_1	-0.071
+locus019_107_1	-0.034
+locus022_48_1	-0.05
+locus024_111_1	0.118
+locus025_110_1	0.231
+locus027_106_1	-0.132
+locus030_106_1	0.159
+locus035_110_1	-0.154
+locus038_103_1	-0.111
+locus039_94_1	-0.134
+locus040_70_1	0.032
+locus041_109_1	0.125
+locus045_96_1	0.477
+locus047_111_1	-0.134
+locus048_101_1	0.032
+locus053_45_1	1
+locus055_92_1	0.062
+locus056_88_1	0.062
+locus058_111_1	0.032
+locus060_111_1	0.118
+locus061_60_1	-0.05
+locus062_111_1	-0.134
+locus064_111_1	0.268
+locus065_111_1	-0.111
+locus069_67_1	0.016
+locus074_72_1	-0.071
+locus076_49_1	0.28
+locus077_70_1	-0.364
+locus080_79_1	-0.098
+locus088_92_1	-0.098
+locus093_105_1	0.257
+locus096_96_1	-0.132
+locus098_89_1	0.4
+locus100_67_1	-0.5
+locus102_92_1	0.38
+locus106_97_1	-0.132
+locus116_84_1	-0.2
+locus119_111_1	0.28
+locus120_93_1	-0.154
+locus128_90_1	-0.304
+locus129_30_1	-0.071
+locus130_94_1	-0.304
+locus134_83_1	0.016
+locus135_60_1	-0.154
+locus137_107_1	0.318
+locus139_94_1	0.032
+locus140_50_1	0.032
+locus146_106_1	-0.429
+locus148_62_1	-0.111
+locus151_48_1	-0.034
+locus157_48_1	-0.24
+locus161_99_1	0.268
+locus170_49_1	0.231
+locus184_68_1	-0.25
+locus186_85_1	0.062
+locus188_46_1	-0.25
+locus189_48_1	0.062
+locus190_48_1	-0.364
+locus191_55_1	0.125
+locus202_38_1	0.062
+locus215_54_1	-0.304
+locus227_108_1	0.748
+locus235_75_1	-0.25
+locus236_63_1	0.605
+locus237_75_1	1
+locus239_75_1	-0.034
+locus248_64_1	0.268
+locus255_56_1	-0.111
+locus256_32_1	-0.034
+locus263_54_1	-0.071
+locus264_70_1	-0.304
+locus274_94_1	-0.034
+locus280_105_1	0.28
+locus282_109_1	-0.034
+locus286_32_1	-0.111
+locus291_79_1	0.153
+locus292_97_1	-0.364
+locus296_72_1	0.211
+locus301_62_1	0.231
+locus314_91_1	-0.034
+locus321_95_1	-0.25
+locus322_43_1	0.231
+locus323_29_1	0.318
+locus329_110_1	0.211
+locus332_65_1	0
+locus334_102_1	-0.071
+locus358_75_1	-0.154
+locus359_69_1	0.032
+locus360_68_1	-0.398
+
+ p values: 
+
+Dc00544_43_1	0.545
+Dc01018_91_1	0.091
+Dc01661_29_1	0.727
+Dc01707_62_1	0.727
+Dc01784_76_1	0.364
+Dc02951_130_1	0.182
+Dc03456_138_1	0.545
+Dc03556_63_1	0.273
+Dc03887_62_1	0.182
+Dc05864_26_1	0.545
+Dc06503_101_1	0.455
+Dc07300_73_1	0.273
+Dc07937_35_1	0.455
+Dc08054_20_1	0.091
+Dc08189_32_1	0.364
+Dc08463_49_1	0.636
+Dc08578_36_1	0.727
+Dc08865_87_1	0.182
+Dc10003_34_1	0.182
+Dc10390_82_1	0.545
+Dc10878_74_1	0.182
+Dc10885_39_1	0.545
+Dc11062_21_1	0.182
+Dc11203_81_1	0.091
+Dc11295_127_1	1
+Dc13159_47_1	0.636
+Dc13592_20_1	0.364
+Dc14022_61_1	0.364
+Dc14945_86_1	0.636
+Dc16747_57_1	0.091
+Dc16962_31_1	0.545
+Dc18951_66_1	0.364
+Dc20232_69_1	0.455
+Dc21465_55_1	0.273
+Dc21637_22_1	0.545
+Dc22013_26_1	0.182
+Dc22883_31_1	0.364
+Dc22887_42_1	0.727
+Dc27955_108_1	0.455
+Dc28124_67_1	1
+Dc28776_34_1	0.455
+Dc30071_39_1	0.545
+Dc31007_38_1	0.636
+Dc33714_53_1	0.455
+Dc33907_80_1	0.818
+Dc34902_33_1	0.455
+Dc35779_46_1	0.455
+Dc36571_143_1	0.273
+Dc36616_24_1	0.545
+Dc36767_28_1	0.545
+Dc40235_127_1	0.455
+Dc41234_66_1	0.182
+Dc46984_53_1	0.182
+Dc47572_71_1	1
+Dc47935_30_1	0.091
+Dc48207_129_1	0.545
+Dc48950_19_1	1
+Dc49080_112_1	0.091
+Dc49184_83_1	0.364
+Dc51020_135_1	0.545
+Dc52523_27_1	0.182
+Dc55481_47_1	0.364
+Dc58248_52_1	0.364
+Dc62188_40_1	0.182
+Dc67011_53_1	0.455
+locus003_111_1	0.091
+locus004_111_1	0.182
+locus005_111_1	0.182
+locus006_64_1	0.455
+locus008_89_1	0.455
+locus013_59_1	1
+locus014_111_1	0.273
+locus016_71_1	0.636
+locus019_107_1	0.455
+locus022_48_1	0.727
+locus024_111_1	0.364
+locus025_110_1	0.455
+locus027_106_1	0.455
+locus030_106_1	0.455
+locus035_110_1	0.545
+locus038_103_1	0.636
+locus039_94_1	0.273
+locus040_70_1	0.636
+locus041_109_1	0.455
+locus045_96_1	0.182
+locus047_111_1	0.364
+locus048_101_1	0.273
+locus053_45_1	1
+locus055_92_1	0.455
+locus056_88_1	0.636
+locus058_111_1	0.455
+locus060_111_1	0.455
+locus061_60_1	0.455
+locus062_111_1	0.545
+locus064_111_1	0.182
+locus065_111_1	0.455
+locus069_67_1	0.455
+locus074_72_1	0.455
+locus076_49_1	0.091
+locus077_70_1	0.091
+locus080_79_1	0.636
+locus088_92_1	0.364
+locus093_105_1	0.273
+locus096_96_1	0.364
+locus098_89_1	0.091
+locus100_67_1	0.182
+locus102_92_1	0.091
+locus106_97_1	0.182
+locus116_84_1	0.182
+locus119_111_1	0.091
+locus120_93_1	0.364
+locus128_90_1	0.182
+locus129_30_1	0.364
+locus130_94_1	0.182
+locus134_83_1	0.455
+locus135_60_1	0.727
+locus137_107_1	0.273
+locus139_94_1	0.364
+locus140_50_1	0.636
+locus146_106_1	0.091
+locus148_62_1	0.273
+locus151_48_1	0.636
+locus157_48_1	0.455
+locus161_99_1	0.273
+locus170_49_1	0.364
+locus184_68_1	0.182
+locus186_85_1	0.636
+locus188_46_1	0.091
+locus189_48_1	0.545
+locus190_48_1	0.273
+locus191_55_1	0.273
+locus202_38_1	0.364
+locus215_54_1	0.182
+locus227_108_1	0.091
+locus235_75_1	0.182
+locus236_63_1	0.091
+locus237_75_1	1
+locus239_75_1	0.727
+locus248_64_1	0.545
+locus255_56_1	0.273
+locus256_32_1	0.636
+locus263_54_1	0.636
+locus264_70_1	0.273
+locus274_94_1	0.636
+locus280_105_1	0.091
+locus282_109_1	0.636
+locus286_32_1	0.455
+locus291_79_1	0.545
+locus292_97_1	0.182
+locus296_72_1	0.182
+locus301_62_1	0.455
+locus314_91_1	0.545
+locus321_95_1	0.455
+locus322_43_1	0.455
+locus323_29_1	0.273
+locus329_110_1	0.091
+locus332_65_1	1
+locus334_102_1	0.455
+locus358_75_1	0.545
+locus359_69_1	0.545
+locus360_68_1	0.091
+
+ Mean fis value: 
+
+0.045
+
+ Mean p value: 
+
+0.412
+
+ Weigthed mean fis value: 
+
+0.023
+
+ Weigthed mean p value: 
+
+NA
+
+
+
+
+References
+Nei, M. (1972) Genetic distance between populations. American Naturalist, 106, 283-292.
+Weir, B.S. and Cockerham, C. (1984) Estimating F-Statistics for the Analysis of Population Structure. Evolution, 38, 1358-1370.
+Nei, M. and Chesser R.K. (1983) Estimation of fixation indices and gene diversities. Annals of Human Genetics, 47, 253-259.
+
+

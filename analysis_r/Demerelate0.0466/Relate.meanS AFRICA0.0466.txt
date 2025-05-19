@@ -1,0 +1,54 @@
+Demerelate - v.0.9-3 ---
+Relatedness outputfile on file: dcor.snp100.dr
+Analysis had been made based on 10 pairs using the Mxy estimator.
+Calculations are based on Bluoin et al. 1996. The values represent relatedness assessment based on genotype sharing.
+For further information mind References at the end of this file.
+
+Calculations had been made for population:S AFRICA
+
+Relatedness Thresholds
+---
+half	full
+0.687	0.804
+---
+
+Relatedness calculations
+---
+Observed frequencies of full siblings (FS), half siblings (HS) and non related pairs (NON)
+
+HS	15
+---
+
+---
+Expected frequencies of full siblings (FS), half siblings (HS) and non related pairs (NON)
+
+NON	15
+---
+
+Chisquare Statistics
+---
+
+
+	Observed	Expected	Chi^2	d.f.	p-value	0.95 Lower CI	0.95 Upper CI
+Full Siblings	0	0	NA	1	NA	0	0
+Full+Half Siblings	1	0	26.133	1	0	0.933	1
+
+----------------------------------------------------------------------------------------------------
+
+
+
+References
+Blouin, M., Parsons, M., Lacaille, V. and Lotz, S. (1996) Use of microsatellite loci to classify individuals by relatedness. Molecular Ecology, 5, 393-401.
+Hardy, O.J. and Vekemans, X. (1999) Isolation by distance in a contiuous population: reconciliation between spatial autocorrelation analysis and population genetics models. Heredity, 83, 145-154.
+Li, C.C., Weeks, D.E. and Chakravarti, A. (1993) Similarity of DNA fingerprints due to chance and relatedness. Human Heredity, 43, 45-52.
+Li, C.C. and Horvitz, D.G. (1953) Some methods of estimating the inbreeding coefficient. American Journal of Human Genetics, 5, 107-17.
+Loiselle, B.A., Sork, V.L., Nason, J. and Graham, C. (1995) Spatial genetic structure of a tropical understory shrub, Psychotria officinalis (Rubiaceae). American Journal of Botany, 82, 1420-1425.
+Lynch, M. (1988) Estimation of relatedness by DNA fingerprinting. Molecular Biology and Evolution, 5(5), 584-599.
+Lynch, M. and Ritland, K. (1999) Estimation of pairwise relatedness with molecular markers. Genetics, 152, 1753-1766.
+Mantel, N. (1967) The detection of disease clustering and a generalized regression approach. Cancer Research, 27, 209-220.
+Oksanen, J. et al. (2013) vegan: Community Ecology Package. R package version 2.0-8.
+Oliehoek, P. A. et al. (2006) Estimating relatedness between individuals in general populations with a focus on their use in conservation programs. Genetics, 173, 483-496.
+Queller, D.C. and Goodnight, K.F. (1989) Estimating relatedness using genetic markers. Evolution, 43, 258-275.
+Ritland, K. (1999) Estimators for pairwise relatedness and individual inbreeding coefficients. Genetics Research, 67, 175-185.
+Wang, J. (2002) An estimator for pairwise relatedness using molecular markers. Genetics, 160, 1203-1215.
+
