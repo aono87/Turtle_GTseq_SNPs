@@ -1,0 +1,19 @@
+ Analysis Description ( R - assignPOP ver. 1.3.0 )
+ Perform assign.kfold() @ 2025-06-04 12:23:31 
+
+ k.fold = 3 4 5 
+ train.loci = 0.8 0.9 1 
+ Total assignment tests = 36 
+ Fst locus sample method: fst 
+ Data scaled and centerd: FALSE 
+ PC retaining criteria: kaiser-guttman 
+ PCA for non-genetic data: mixed 
+ Machine learning model: lda 
+
+ Input Data ( genetics )
+ Number of individuals: 142 
+ Number of loci: 157 
+ Number of non-genetic variables: 0 
+ Number of populations: 5 
+ CentralCA INDONESIA MALAYSIA PAPUA_NEW_GUINEA SOLOMON_ISLANDS 
+ 7 63 7 12 53 

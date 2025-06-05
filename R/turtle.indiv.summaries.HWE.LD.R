@@ -1,0 +1,108 @@
+library(tidyverse)
+library(strataG)
+library(dplyr)
+#library(swfscMisc)
+
+project <- 'final.sams.no.dupes'
+min.reads <- 20
+
+load(paste0('data/gtypes_', project, '_minReads.', min.reads, '.rda'))
+g #if going straight from other scripts
+
+### REMOVE INDIVIDUALS THAT ARE OUTLILERS IN TERMS OF HIGH HOMOZYGOSITY ####
+ind.summary <- summarizeInds(g)
+high.homo.samps <- filter(ind.summary, pct.loci.homozygous > 0.7) |> 
+  pull(id)
+high.homo.samps #none in my dataset
+g <- g[-which(getIndNames(g) %in% high.homo.samps),,]
+
+### HARDY-WEINBERG EQUILIBRIUM ###############################
+pop.g <- stratify(g, "sampling.location")
+pop.g
+
+hwe.list <- lapply(c("CentralCA", "INDONESIA", "MALAYSIA", "PAPUA_NEW_GUINEA", "SOLOMON_ISLANDS"), function(s){
+  x <- hweTest(pop.g[,,s]) %>% data.frame() %>% rownames_to_column()
+  names(x) <- c("locus", s)
+  return(x)
+})
+
+hwe.res <- hwe.list |> reduce(full_join, by = 'locus') |> 
+  rowwise() %>%
+  mutate(
+    num.sig = sum(
+      c_across('CentralCA':'SOLOMON_ISLANDS') < 0.05
+    ),
+    num.sig.after.correction = sum(
+      c_across('CentralCA':'SOLOMON_ISLANDS') < (0.05/5) #have updated to 5 to reflect the number of Dcor populations
+    )
+  ) %>%
+  ungroup()
+
+write.csv(hwe.res, file = paste0("data-raw/QA.QC/",project, ".hwe.results.csv"))
+
+# Identify and exclude loci that were significantly out of HWE in one or more herd, after Bonferroni correction
+locs2exclude <- filter(hwe.res, num.sig.after.correction > 0) %>% pull(locus)
+locs2exclude
+
+g <- g[,-which(getLociNames(g) %in% locs2exclude),]
+pop.g <- stratify(g, 'sampling.location')
+save(g, file = paste0('data/gtypes_', project, '_minReads.', min.reads, '.rda'))
+
+### SUMMARIZE REMAINING LOCI ################################################
+
+loc.sum <- summarizeLoci(g)
+loc.sums.by.strat <- summarizeLoci(pop.g, by.strata = TRUE) |> 
+  filter(stratum %in% c("CentralCA", "INDONESIA", "MALAYSIA", "PAPUA_NEW_GUINEA", "SOLOMON_ISLANDS")) |> 
+  mutate(obs_minus_exp = exptd.het - obsvd.het)
+
+loc.sum <- left_join(loc.sum, 
+g@data |> select(c(locus, allele)) |> 
+  distinct() |> 
+  filter(!is.na(allele)) |> 
+  mutate(num.snps = nchar(allele)) |> 
+  select(c(locus, num.snps)) |> 
+  distinct()
+)
+write.csv(loc.sum, file = 'results-raw/final.loc.sum.csv')
+save(loc.sums.by.strat, loc.sum, file = 'data/final.loc.sum.rda')
+
+### SUMMARIZE REMAINING INDIVIDUALS #######################################
+
+ind.sum <- summarizeInds(g)
+samp.size.by.stratum <- table(paste(df.strata$wint.area, df.strata$feed.area, sep='_|_'))
+write.csv(samp.size.by.stratum, file = 'results-raw/samp.size.by.herd.csv')
+
+### LINKAGE DISEQUILIBRIUM ################################################
+
+# Not doing LD. I know these loci aren't physically linked, so result would not be useful
+# ld.overall <- LDgenepop(g)
+# 
+# ld.list <- lapply(1:length(strats.to.analyze), function(s){
+#   print('next')
+#   x <- LDgenepop(strats.to.analyze[[s]])# %>% data.frame() %>% rownames_to_column()
+#   #names(x) <- c("locus", names(strats.to.analyze)[s])
+#   return(x)
+# })
+# names(ld.list) <- names(strats.to.analyze)
+# 
+# ld.sig.res <- lapply(ld.list, function(s){
+#   filter(s, p.value < 0.05) |> 
+#     select(c(Locus.1, Locus.2, p.value))
+# }) 
+# for (i in 1:length(ld.sig.res)){
+#   names(ld.sig.res[[i]])[3] <- paste0('p.val.',names(ld.list[i]))
+# }
+#  
+# ld.sig.res <- ld.sig.res |> reduce(full_join) |> 
+#   rowwise() %>%
+#   mutate(
+#     num.sig = sum(
+#       c_across('p.val.CentAm-CA.OR.WA':'p.val.MnMx-CA.OR.WA') < 0.05, na.rm = TRUE
+#     ),
+#     num.sig.after.correction = sum(
+#       c_across('p.val.CentAm-CA.OR.WA':'p.val.MnMx-CA.OR.WA') < (0.05/3), na.rm = TRUE
+#     )
+#   ) %>%
+#   ungroup()
+# 
+# ld.list$all <- LDgenepop(g)
