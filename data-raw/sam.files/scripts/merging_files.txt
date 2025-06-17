@@ -11,3 +11,5 @@ samtools merge 134098_merged.sam 134098_mapped2ref.sam 134098b_mapped2ref.sam
 samtools merge 26457_merged2.sam 26457_merged.sam 40945_mapped2ref.sam
 
 samtools merge 26450_merged2.sam 26450_merged.sam 40943_mapped2ref.sam
+
+samtools merge 12509_merged.sam 12509b_mapped2ref.sam 12509c_mapped2ref.sam

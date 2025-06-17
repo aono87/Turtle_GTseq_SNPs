@@ -4,8 +4,10 @@ library(dplyr)
 library(swfscMisc)
 library(readxl)
 
-project <- "dcor.wpac.dupe-check"
+project <- "dcor.wpac.final"
 min.reads <- 20
+load(paste0("results-R/", project, ".", min.read.depth, "readsMin.geno.eval.rda"))
+
 
 #Create a strata file for the geno.table to make a gtypes file
 #export final sample ID list

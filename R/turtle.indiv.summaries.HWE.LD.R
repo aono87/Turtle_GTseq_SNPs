@@ -3,20 +3,25 @@ library(strataG)
 library(dplyr)
 #library(swfscMisc)
 
-project <- 'final.sams.no.dupes'
+project <- 'dcor.wpac.final'
 min.reads <- 20
 
 load(paste0('data/gtypes_', project, '_minReads.', min.reads, '.rda'))
 g #if going straight from other scripts
+strata2keep <- c("CentralCA", "INDONESIA", "MALAYSIA", "PAPUA_NEW_GUINEA", "SOLOMON_ISLANDS")
+
 
 ### REMOVE INDIVIDUALS THAT ARE OUTLILERS IN TERMS OF HIGH HOMOZYGOSITY ####
 ind.summary <- summarizeInds(g)
+hist(ind.summary$pct.loci.homozygous)
 high.homo.samps <- filter(ind.summary, pct.loci.homozygous > 0.7) |> 
   pull(id)
 high.homo.samps #none in my dataset
 g <- g[-which(getIndNames(g) %in% high.homo.samps),,]
 
 ### HARDY-WEINBERG EQUILIBRIUM ###############################
+##Karen originally calculated a simple Bonferroni correction: 0.05/num populations
+##I also calculated the Sequential bonferron correction using p.adjust()
 pop.g <- stratify(g, "sampling.location")
 pop.g
 
@@ -26,27 +31,62 @@ hwe.list <- lapply(c("CentralCA", "INDONESIA", "MALAYSIA", "PAPUA_NEW_GUINEA", "
   return(x)
 })
 
-hwe.res <- hwe.list |> reduce(full_join, by = 'locus') |> 
+hwe.res <- hwe.list |> reduce(full_join, by = 'locus') 
+
+hwe.res.p.bon <- hwe.res |> 
   rowwise() %>%
   mutate(
-    num.sig = sum(
-      c_across('CentralCA':'SOLOMON_ISLANDS') < 0.05
-    ),
-    num.sig.after.correction = sum(
-      c_across('CentralCA':'SOLOMON_ISLANDS') < (0.05/5) #have updated to 5 to reflect the number of Dcor populations
-    )
-  ) %>%
-  ungroup()
+    num.sig.p = sum(
+      c_across('CentralCA':'SOLOMON_ISLANDS') < 0.05),
+    num.sig.bon = sum(
+        c_across('CentralCA':'SOLOMON_ISLANDS') < (0.05/5) #have updated to 5 to reflect the number of Dcor populations
+      ))
+head(hwe.res.p.bon)
 
-write.csv(hwe.res, file = paste0("data-raw/QA.QC/",project, ".hwe.results.csv"))
+#hwe.res <- hwe.list |> reduce(full_join, by = 'locus') |> 
+#  rowwise() %>%
+#  mutate(
+#    num.sig = sum(
+#      c_across('CentralCA':'SOLOMON_ISLANDS') < 0.05
+#    ),
+#    num.sig.after.correction = sum(
+#      c_across('CentralCA':'SOLOMON_ISLANDS') < (0.05/5)
+#    )
+#  ) %>%
+#  ungroup()
+#Karen's code
+
+hwe.res.adj<-hwe.res %>% column_to_rownames("locus")
+hwe.res.adj <- apply(hwe.res.adj, 1, function(x) p.adjust(x, method = "holm"))
+hwe.res.adj<-t(hwe.res.adj)
+hwe.res.adj<-as.data.frame(hwe.res.adj)
+hwe.res.adj<-hwe.res.adj %>% rownames_to_column("locus")
+head(hwe.res.adj)
+
+hwe.res.seq <-hwe.res.adj |> 
+  rowwise() %>%
+  mutate(
+    num.sig.seq = sum(
+      c_across('CentralCA':'SOLOMON_ISLANDS') < 0.05
+    ))
+
+head(hwe.res.p.bon)
+head(hwe.res.seq)
+
+HWE.sig<- full_join(hwe.res.p.bon, hwe.res.seq, by="locus") %>%
+  select(locus, CentralCA.x, INDONESIA.x, MALAYSIA.x, PAPUA_NEW_GUINEA.x, SOLOMON_ISLANDS.x, num.sig.p, num.sig.bon, num.sig.seq)
+head(HWE.sig)
+
+write.csv(HWE.sig, file = paste0("data-raw/QA.QC/",project, ".hwe.results.csv"))
 
 # Identify and exclude loci that were significantly out of HWE in one or more herd, after Bonferroni correction
-locs2exclude <- filter(hwe.res, num.sig.after.correction > 0) %>% pull(locus)
-locs2exclude
+locs2exclude <- filter(HWE.sig, num.sig.seq > 0) %>% pull(locus)
+locs2exclude #empty
 
-g <- g[,-which(getLociNames(g) %in% locs2exclude),]
-pop.g <- stratify(g, 'sampling.location')
-save(g, file = paste0('data/gtypes_', project, '_minReads.', min.reads, '.rda'))
+#g <- g[,-which(getLociNames(g) %in% locs2exclude),]
+#pop.g <- stratify(g, 'sampling.location')
+#save(g, file = paste0('data/gtypes_', project, '_minReads.', min.reads, '.rda'))
+
 
 ### SUMMARIZE REMAINING LOCI ################################################
 

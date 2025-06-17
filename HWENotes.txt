@@ -1,0 +1,32 @@
+Hardy Weinberg Equilibrium notes from ChatGPT
+
+Whether or not to filter loci not in Hardy-Weinberg equilibrium (HWE) depends on your goal and the nature of your data.
+
+🔍 Short Answer:
+Do not automatically filter loci out of HWE for population structure analyses. In fact, removing loci that deviate from HWE can bias your results if population structure is present.
+
+💡 Why?
+1. HWE Deviations May Reflect Structure
+
+Population structure (e.g., subpopulations with different allele frequencies) itself can cause deviations from HWE—a phenomenon known as the Wahlund effect.
+So, excluding those loci may remove the very signals you're trying to detect.
+2. Assumptions of Tools
+
+Some methods (e.g., PCA, STRUCTURE, ADMIXTURE) assume neutral loci and not necessarily HWE-conforming loci.
+These tools are robust to modest deviations from HWE, especially when you're using a large number of loci.
+3. When Filtering Might Be Appropriate
+
+There are situations where filtering HWE-violating loci is helpful:
+
+In quality control: Strong deviations from HWE can indicate genotyping errors or duplicated loci, especially if deviations are extreme and in all populations.
+Within-population analyses: If you're analyzing a single, well-mixed population, HWE can be a good QC check.
+✅ Best Practice:
+Test HWE within each inferred population (not across all individuals)—this helps distinguish real structure from technical artifacts.
+Exclude only loci that deviate strongly from HWE in all populations, and consider biological context.
+Document your filtering criteria clearly.
+📘 Example Pipeline:
+Initial filtering (e.g., missing data, MAF).
+Population structure analysis (e.g., PCA, ADMIXTURE).
+Assign individuals to populations (if possible).
+Check HWE within each group.
+Filter if needed (e.g., for GWAS or selection scans, not necessarily for structure).

@@ -29,6 +29,7 @@
 12503_mapped2ref.sam	z0012503	NA
 12504_mapped2ref.sam	z0012504	NA
 12505_mapped2ref.sam	z0012505	NA
+12509_merged.sam	z0012509	NA
 12511_mapped2ref.sam	z0012511	NA
 12515_mapped2ref.sam	z0012515	NA
 12517_mapped2ref.sam	z0012517	NA

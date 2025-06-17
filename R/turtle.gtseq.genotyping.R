@@ -30,7 +30,7 @@ write.table(new.inds, "data-raw/mplot_labels/w-leatherback-inds-zpad.txt", sep="
 #Manually reformat into required format for microhaploty: filename, ID, pop (NA here)
 
 #Preparing paths for running microhaplot
-run.label <- "wpac.sams"
+run.label <- "dcor.wpac.final"
 
 #Microhaplot: Customize the following paths
 sam.path <- "data-raw/sam.files/all/" #path to where all of the sam files are located
@@ -65,7 +65,7 @@ library(dplyr)
 source("R/functions/mplot2tgt.R") #MUST UPDATE WITH PATH TO YOUR OWN FILES
 source("R/functions/Compare.replicates.R")
 
-project <- "wpac.sams"
+project <- "dcor.wpac.final"
 
 AB.min.het <- 3/7
 AB.max.homo <- 2/8
@@ -282,11 +282,11 @@ tgt.after.merge.before.filter<-tgt
 tgt<-tgt.after.merge.before.filter
 tgt
 
-tgt %>% filter(!(locus %in% c("locus019", "locus111", "locus155", "locus201", "locus271")) & !(Indiv %in% c("z0012526", "z0216912", "z0216919", "z0216911", "z0216922", "z0216917")))
+tgt<-tgt %>% filter(!(locus %in% c("locus019", "locus111", "locus155", "locus201", "locus271")) & !(Indiv %in% c("z0012526", "z0216912", "z0216919", "z0216911", "z0216922", "z0216917")))
 sort(unique(tgt$locus))
 sort(unique(tgt$Indiv))
 
-saveRDS(tgt, file = paste0('results-R/tgt_filter3.', project, '.rds'))
+saveRDS(tgt, file = paste0('results-R/tgt.', project, '.rds'))
 
 #compare replicates after filter
 LABIDs <- unique(tgt$Indiv) %>% substr(start = 1, stop = 8)
