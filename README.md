@@ -43,7 +43,7 @@ Step 2: Call genotypes and QA/QC
       In doing this, the worst genotypes are removed and you will likely be left with a reasonable dataset
     After filtering, re run the questionable genotypes and mismatch samples and decide how to proceed. 
       In my case, there were no questionable genotypes after the bad loci/samples were removed
-    Mismatches were opened in geneious and while the SNP looks like it likely is a heterozygot, the number of minor alleles was not high enough in one replicate or in the combined sam files to meet the threshold
+    Mismatches were opened in geneious and while the SNP looks like it likely is a heterozygote, the number of minor alleles was not high enough in one replicate or in the combined sam files to meet the threshold
       MAF threshold: MA must be present in >30% of reads to be considered a heterozygote, MA can't be present in >20% of reads to be a homozygote
       My replicates fell in the 20-30% range
       Ultimately, I was happy that the replicates were good and consistent, so I merged the sam files and re-ran the script
@@ -54,6 +54,10 @@ Step 2: Call genotypes and QA/QC
     There was one replicate that appeared to be a different sample (different genotypes across all loci)
     
     
+#Ideas of what to include in a "helpful code/function"
+
+reading and writing R data
+writing csv files with and without pasted project name
     
     
     
