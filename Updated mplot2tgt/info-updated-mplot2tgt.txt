@@ -1,0 +1,34 @@
+Here is the mplot2tgt function rewritten to use allelic ratio instead of allelic balance.
+
+The key difference is that Allelic Ratio (often called Minor Allele Frequency) is calculated as minor_reads / total_reads, giving a value between 0 and 0.5 for a diploid. In contrast, the allele.balance used in your original script was calculated as minor_reads / major_reads.
+
+This updated function calculates the allelic ratio on the fly and uses new arguments to filter genotypes.
+
+How to Use the New Function
+
+Save the Code: Save the new function as a new file, for example, mplot2tgt_ratio.R, and source() it in your main workflow script (01_genotyping_and_qc_interactive.R).
+
+Set New Thresholds: The new arguments AR.max.homo and AR.min.het operate on a scale of 0 to 0.5. To replicate the logic of your original script (AB.max.homo = 2/8 and AB.min.het = 3/7), the equivalent allelic ratios would be approximately:
+
+AR.max.homo = 0.2 (equivalent to 2 / (8+2))
+
+AR.min.het = 0.3 (equivalent to 3 / (7+3))
+
+Update Your Workflow: In your main script, replace the call to mplot2tgt with a call to the new function, providing the appropriate arguments.
+
+Example Call:
+
+# In your 01_genotyping_and_qc_interactive.R script
+
+# Source the new function
+source("R/functions/mplot2tgt_ratio.R") 
+
+# ... inside the workflow ...
+
+# Call the new function with allelic ratio parameters
+tgt.initial <- mplot2tgt_ratio(
+  project = project, 
+  AR.min.het = 0.30,      # Set your desired minimum ratio for heterozygotes
+  AR.max.homo = 0.20,     # Set your desired maximum ratio for homozygotes
+  min.read.depth = 20
+)

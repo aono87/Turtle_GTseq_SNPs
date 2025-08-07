@@ -17,7 +17,7 @@ head(Dcor.strata)
 Dcor.sample.info<-read_xlsx("~/Documents/GitHub/Turtle_GTseq_SNPs/results-raw/turtle.qa.qc.xlsx", sheet="SampleData")
 
 #Select desired columns from sample info
-Dcor.sample.info<-Dcor.sample.info %>% select(mplot.id,	id,	lab.id,	sampling.location,	Turtle_ID,	Lab_ID,	Field_ID,	Year_collected,	Location,	Country,	Sex,	Collection_Method)
+Dcor.sample.info<-Dcor.sample.info %>% select(mplot.id,	id,	lab.id,	sampling.location,	Turtle_ID,	Lab_ID,	Field_ID,	Stratum_ABO, Year_collected,	Location,	Country,	Sex,	Collection_Method)
 head(Dcor.sample.info)
 
 #Merge final sample list with sample info sheet
@@ -43,10 +43,9 @@ split.genos <- alleleSplit(genos, sep= "/") %>%
 df <- right_join(Dcor.strata.all, split.genos, by = "Indiv")
 head(df)
 
-df.strata <- select(df, c(Indiv, sampling.location)) %>%
-  column_to_rownames(var = "Indiv")
+df.strata <- select(df, c(Indiv, Stratum_ABO)) %>% column_to_rownames(var = "Indiv")
 
-g <- df2gtypes(df, ploidy = 2, id.col = 1, strata.col = 5, loc.col = 14, schemes=df.strata)
+g <- df2gtypes(df, ploidy = 2, id.col = 1, strata.col = 9, loc.col = 15, schemes=df.strata)
 g
 
 save(g, df, file = paste0("data/gtypes_", project, "_minReads.", min.reads, ".rda"))

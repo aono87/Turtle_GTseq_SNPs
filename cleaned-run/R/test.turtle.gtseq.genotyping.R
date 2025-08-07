@@ -14,11 +14,18 @@ app.path <- "~/Documents/GitHub/Shiny/microhaplot/" #path to where the shiny app
 run.label <- "dcor.wpac.test"
 
 #Microhaplot: Customize the following paths
-sam.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/data-raw/sam.files/all/" #path to where all of the sam files are located
-label.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/data-raw/mplot_labels/w-leatherback-inds-zpad.txt" #path to where the sample id file is located
-vcf.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/data-raw/vcf/Dcor_DcPanel_205_maf.targetSNPs_012224.recode.vcf" #path to where the vcf file with snp loci is located
+sam.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/testing-new-scripts/data-raw/sam_files/" #path to where all of the sam files are located
+label.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/testing-new-scripts/data-raw/metadata/w-leatherback-inds-zpad.txt" #path to where the sample id file is located
+vcf.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/testing-new-scripts/data-raw/vcf/Dcor_DcPanel_205_maf.targetSNPs_012224.recode.vcf" #path to where the vcf file with snp loci is located
 out.path <- "results-R/microhaplot/" #path to where you want the results to be located
 app.path <- "~/Documents/GitHub/Shiny/microhaplot/" #path to where the shiny app is located
+
+#sam.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/data-raw/sam.files/all/" #path to where all of the sam files are located
+#label.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/data-raw/mplot_labels/w-leatherback-inds-zpad.txt" #path to where the sample id file is located
+#vcf.path <- "~/Documents/GitHub/Turtle_GTseq_SNPs/data-raw/vcf/Dcor_DcPanel_205_maf.targetSNPs_012224.recode.vcf" #path to where the vcf file with snp loci is located
+#out.path <- "results-R/microhaplot/" #path to where you want the results to be located
+#app.path <- "~/Documents/GitHub/Shiny/microhaplot/" #path to where the shiny app is located
+
 
 #read in vcf file
 vcf <- read.vcfR(vcf.path)
