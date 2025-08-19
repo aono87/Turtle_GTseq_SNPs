@@ -83,7 +83,7 @@ pop.strats.g.split <- all.strats.g[names(all.strats.g) %in% strata.to.analyze]
 
 
 # ====================================================================
-# STEP 2: LOCUS SUMMARY STATISTICS
+# STEP 2: SUMMARY STATISTICS
 # ====================================================================
 message("\nStep 2: Calculating locus summary statistics...")
 
@@ -108,7 +108,13 @@ save(loc.sum.strata, loc.sum, file = file.path(data_path, paste0(run_label, ".lo
 
 message("Locus summary statistics calculated and saved.")
 
+message("\nStep 2: Calculating individual summary statistics...")
+ind.sum <- summarizeInds(g)
 
+# --- Save Individual Summary results (filenames updated) ---
+write.csv(ind.sum, file = file.path(results_raw_path, paste0(run_label, ".ind.sum.csv")), row.names = FALSE)
+save(ind.sum, file = file.path(data_path, paste0(run_label, ".ind.sum.rda")))
+message("Individual summary statistics calculated and saved.")
 # ====================================================================
 # STEP 3: HOMOZYGOSITY CHECK
 # ====================================================================
