@@ -4,8 +4,9 @@
 # stage_label=stage that you are in ("initial", "pass1", "final", etc)
 # project=project name used for output file prefix
 # total_loci=total number of loci at this particular stage ("num.locs.initial", etc)
+# out_path=the directory to save the raw QC files
 
-run_qc_analysis <- function(tgt_df, stage_label, project, total_loci) {
+run_qc_analysis <- function(tgt_df, stage_label, project, total_loci, out_path = "results-raw/") {
   message(paste("\n--- Running QC Analysis for Stage:", stage_label, "---"))
   
   # 1. Questionable Haplotypes
@@ -15,7 +16,7 @@ run_qc_analysis <- function(tgt_df, stage_label, project, total_loci) {
   genos.to.check <- filter(tgt_df, questionable.hap)
   if (nrow(genos.to.check) > 0) {
     message(paste("  - Found", nrow(genos.to.check), "questionable genotypes."))
-    write.csv(genos.to.check, file.path(results.raw.path, paste0(project, ".genos.to.check.", stage_label, ".csv")))
+    write.csv(genos.to.check, file.path(out_path, paste0(project, ".genos.to.check.", stage_label, ".csv")))
   } else {
     message("  - No questionable genotypes found.")
   }
@@ -30,7 +31,7 @@ run_qc_analysis <- function(tgt_df, stage_label, project, total_loci) {
     }))
     if (!is.null(mismatches.to.check) && nrow(mismatches.to.check) > 0) {
       message(paste("  - Found", nrow(mismatches.to.check), "mismatched genotypes between replicates."))
-      write.csv(mismatches.to.check, file.path(results.raw.path, paste0(project, ".genotype.mismatches.", stage_label, ".csv")), row.names = FALSE)
+      write.csv(mismatches.to.check, file.path(out_path, paste0(project, ".genotype.mismatches.", stage_label, ".csv")), row.names = FALSE)
     } else {
       message("  - No mismatched genotypes were found between replicates.")
     }
@@ -46,11 +47,11 @@ run_qc_analysis <- function(tgt_df, stage_label, project, total_loci) {
     summarise(loci.genoed = n_distinct(locus), .groups = 'drop') %>%
     mutate(prop.genoed = loci.genoed / total_loci)
   
-  write.csv(loc.sum, file.path(results.raw.path, paste0(project, ".locus.summary.", stage_label, ".csv")), row.names = FALSE)
-  write.csv(ind.sum, file.path(results.raw.path, paste0(project, ".indiv.summary.", stage_label, ".csv")), row.names = FALSE)
+  write.csv(loc.sum, file.path(out_path, paste0(project, ".locus.summary.", stage_label, ".csv")), row.names = FALSE)
+  write.csv(ind.sum, file.path(out_path, paste0(project, ".indiv.summary.", stage_label, ".csv")), row.names = FALSE)
   
   # 4. Histograms
-  pdf(file.path(results.raw.path, paste0(project, ".qc.histograms.", stage_label, ".pdf")))
+  pdf(file.path(out_path, paste0(project, ".qc.histograms.", stage_label, ".pdf")))
   hist(loc.sum$prop.genoed, breaks = 40, main = paste("Locus Completeness -", stage_label), xlab = "Proportion of Individuals Genotyped", col = "skyblue")
   hist(ind.sum$prop.genoed, breaks = 40, main = paste("Individual Completeness -", stage_label), xlab = "Proportion of Loci Genotyped", col = "salmon")
   dev.off()
