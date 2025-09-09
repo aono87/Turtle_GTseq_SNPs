@@ -1,0 +1,120 @@
+# Source required functions
+source("R/functions/tgt.2.geno.table.R")
+source("R/functions/haps.w.ns.R")
+
+# CHANGED: Added library call to make the script's dependency on 'dplyr' explicit.
+library(dplyr)
+
+# Define the function to convert mplot output to a TGT-like genotype table
+# CHANGED: The function signature was modified to make all key parameters required arguments.
+# This makes the function more robust and self-contained.
+mplot2tgt <- function(project, results.mplot.file, AB.min.het, AB.max.homo, AR.max.homo, min.read.depth) {
+  
+  why.removed <- list()
+  
+  # CHANGED: Replaced paste0() with file.path() for a more reliable way to build file paths
+  # that works on any operating system.
+  #geno_file <- file.path(out.path, paste0(project, ".rds"))
+  genos <- readRDS(results.mplot.file)[,-1]
+  
+  genos <- mutate(genos, id.loc = paste0(id, "-", locus))
+  genos$to.remove <- FALSE
+  
+  # Remove haplotypes that are NA
+  genos$to.remove[which(is.na(genos$haplo))] <- TRUE
+  why.removed$na <- length(which(genos$to.remove))
+  
+  # calculate total depth of each individual at each locus
+  locus_depths <- genos %>%
+    group_by(id.loc) %>%
+    summarise(total_locus_depth = sum(depth, na.rm = TRUE), .groups = 'drop')  
+  
+  # Now, join the total depth back to the main table and calculate the ratio for each allele.
+  genos <- genos %>%
+    left_join(locus_depths, by = "id.loc") %>%
+    mutate(allelic_ratio = ifelse(total_locus_depth > 0, depth / total_locus_depth, 0)) 
+  
+  # remove genotypes that don't meet the minimum read depth criterion
+  genos.to.drop <- filter(genos, total_locus_depth < min.read.depth)
+  genos$to.remove[which(genos$id.loc %in% genos.to.drop$id.loc)] <- TRUE
+  why.removed$minDepth <- length(which(genos$to.remove))
+  print("Done filtering on read depth")
+  
+  # Remove genotypes for individuals whose major haplotype read depth is less than min.read.depth/2
+  genos.to.drop <- filter(genos, depth < min.read.depth/2) %>% filter(rank == 1) %>% filter(to.remove == FALSE)
+  genos$to.remove[which(genos$id.loc %in% genos.to.drop$id.loc)] <- TRUE
+  why.removed$majorAlleleDepth <- length(which(genos$to.remove))
+  
+  # remove haplotypes with rank > 1 and AB < AB.max.hom
+  # this removes minor allele(s) from genos where the major allele frequency
+  # is high enough to call a homozygote
+  genos$to.remove[which(genos$rank > 1 & genos$allele.balance < AB.max.homo)] <- TRUE
+  why.removed$AB.max.hom <- length(which(genos$to.remove))
+
+  # Remove genotypes where the minor allele frequency is too low to call a heterozygote
+  genos.to.drop <- filter(genos, rank > 1) %>% filter(to.remove == FALSE) %>% 
+    filter(allele.balance < AB.min.het) %>% select(id.loc)
+  genos$to.remove[which(genos$id.loc %in% genos.to.drop$id.loc)] <- TRUE
+  why.removed$AB.min.het <- length(which(genos$to.remove))
+  
+  # Remove haplotypes with rank > 4
+  genos$to.remove[which(genos$rank > 4)] <- TRUE
+  why.removed$rank.gt.4 <- length(which(genos$to.remove))
+  print("Done filtering on rank and allelic balance")
+  
+  # If there's only one genotype remaining at a locus for an individual, but its
+  # frequency is less than AR.min.homo, remove it
+  genos <- genos %>%
+    group_by(id.loc) %>%
+    mutate(remaining_alleles = sum(!to.remove),
+           to.remove = 
+             ifelse(remaining_alleles == 1,
+                  ifelse(rank == 1,
+                         ifelse(allelic_ratio < (1 - AR.max.homo), TRUE, to.remove),
+                  to.remove),
+           to.remove)) %>%
+    
+    ungroup()
+  why.removed$AR.max.homo <- sum(genos$to.remove)
+    
+  # Create the TGT-like data structure
+  tgt <- data.frame(do.call(rbind, lapply(unique(genos$id.loc), function(x){
+    df <- filter(genos, id.loc == x)
+    if (nrow(df) > 4) df <- df[1:4,]
+    
+    loc <- df$locus[1]
+    ind <- df$id[1]
+    haps <- df$haplo
+    depth <- df$depth
+    
+    if(length(haps) < 4) {
+      haps <- c(haps, rep(NA, (4-length(haps))))
+      depth <- c(depth, rep(0, (4-length(depth))))
+    }
+    
+    # CHANGED: The nested if/else statements were reformatted for better readability.
+    # The logic is identical but easier to understand.
+    if(df$to.remove[1]) {
+      gt <- NA 
+    } else {
+      if(nrow(df) == 1 || df$to.remove[2]) {
+        gt <- paste(haps[1], haps[1], sep= "/")
+      } else {
+        gt <- ifelse(haps[2] < haps[1], paste(haps[2], haps[1], sep= "/"), paste(haps[1], haps[2], sep= "/"))
+      }
+    }
+    
+    num.haps <- sum(!df$to.remove)
+    res <- c(loc, ind, gt, haps, depth, num.haps)
+    names(res) <- c("locus", "Indiv", "gt", "haplo.1", "haplo.2", "haplo.3", "haplo.4", 
+                    "depth.1", "depth.2", "depth.3", "depth.4", "num.haps")
+    return(res)
+  })))
+  
+  # CHANGED: The four repetitive lines for type conversion were replaced with a single,
+  # more efficient line that applies the change to all 'depth' columns at once.
+  tgt[, grep("depth", names(tgt))] <- lapply(tgt[, grep("depth", names(tgt))], as.integer)
+  
+  # return(list(tgt = tgt, why.removed = why.removed)) # Optional detailed return
+  return(tgt)
+}

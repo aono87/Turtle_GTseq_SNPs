@@ -1,0 +1,3 @@
+"Stage","Loci_Count","Loci_Removed","Manual_Loci_Removed","Individuals_Count","Individuals_Removed","Manual_Individuals_Removed","Notes"
+"01_Initial_Load",183,NA,NA,216,NA,NA,NA
+"02_pass1_Filter",178,5,"locus019",210,6,NA,"Locus threshold: 0.1; Indiv threshold: 0.1"
