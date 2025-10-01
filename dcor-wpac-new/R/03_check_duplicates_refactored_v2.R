@@ -23,7 +23,7 @@ library(strataG)
 
 # --- Project and File Naming ---
 # These settings MUST match script 02.
-project_name <- "dcor_wpac"
+project_name <- "dcor_wpac_new"
 final_analysis_stage <- "final_nodups" #update with stage: "wreps", "merged" or "final_nodups"
 min_reads <- 20
 

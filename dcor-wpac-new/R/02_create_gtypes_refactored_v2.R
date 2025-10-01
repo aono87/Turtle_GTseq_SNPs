@@ -24,7 +24,7 @@ library(readxl)
 
 # --- Project and File Naming ---
 # These settings MUST match the final run of script 01.
-project_name <- "dcor_wpac"
+project_name <- "dcor_wpac_new"
 final_analysis_stage <- "final_nodups" # The stage of the data you want to load.
 #"wreps", "merged", or "final_nodups"
 
@@ -38,14 +38,14 @@ geno.data.path <- file.path("results-R", final_analysis_stage, paste0(run_label,
 
 # --- Metadata Configuration (USER INPUT REQUIRED) ---
 # Path to your sample metadata file.
-sample.info.path <- "dcor.wpac.qa-qc.xlsx"
+sample.info.path <- "dcor.wpac.qa-qc.new.xlsx"
 sample.info.sheet <- "SampleData"
 
 # The column in your metadata that contains the individual IDs.
 metadata.id.col <- "id"
 # The column in your metadata to be used as the stratum.
-#strata.col.name <- "Stratum_ABO"
-strata.col.name <- "Stratum2_ABO" #for Fst tables
+strata.col.name <- "Stratum_ABO"
+#strata.col.name <- "Stratum2_ABO" #for Fst tables
 
 # -------------------------
 # --- END CONFIGURATION ---
@@ -133,7 +133,8 @@ print(g)
 
 # Save the final `gtypes` object and the merged dataframe.
 # This filename will now match the input data stage (e.g., gtypes_dcor_wpac_final_nodups_...)
-output.filename <- file.path("data", paste0("gtypes_", run_label, "_minReads", min_reads, "_Stratum2", ".rda"))
+output.filename <- file.path("data", paste0("gtypes_", run_label, "_minReads", min_reads, ".rda"))
+#output.filename <- file.path("data", paste0("gtypes_", run_label, "_minReads", min_reads, "_Stratum2", ".rda"))
 save(g, df, file = output.filename)
 
 message("\n✅ Workflow Step 2 complete!")

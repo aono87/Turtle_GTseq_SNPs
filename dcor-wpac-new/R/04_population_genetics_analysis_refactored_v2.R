@@ -27,7 +27,7 @@ library(tibble)
 
 # --- Project and File Naming ---
 # These settings MUST match the previous scripts.
-project_name <- "dcor_wpac"
+project_name <- "dcor_wpac_new"
 final_analysis_stage <- "final_nodups"
 min_reads <- 20
 
@@ -71,8 +71,8 @@ message(paste("Automatically detected", length(strata.to.analyze), "strata for a
 message(paste(" -", strata.to.analyze, collapse = "\n"))
 
 # Optional: Manually remove specific strata
-strata.to.analyze <- strata.to.analyze[!strata.to.analyze %in% c("In-water, CA", "In-water, Indonesia")]
-print(strata.to.analyze)
+#strata.to.analyze <- strata.to.analyze[!strata.to.analyze %in% c("In-water, CA", "In-water, Indonesia")]
+#print(strata.to.analyze)
 
 # Create a new gtypes object containing only the strata to be analyzed.
 pop.g <- g[i = which(getStrata(g) %in% strata.to.analyze)]

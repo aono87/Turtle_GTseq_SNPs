@@ -33,7 +33,7 @@ source("R/functions/tracking_functions.R")      # Source for all tracking functi
 
 # ❗ STEP 1: SET THE CURRENT ANALYSIS STAGE ❗
 # Choose one: "wreps", "merged", or "final_nodups"
-analysis_stage <- "merged"
+analysis_stage <- "final_nodups"
 
 # --- Project and File Naming ---
 project_name <- "dcor_wpac_new"
@@ -372,6 +372,7 @@ geno.table <- tgt.2.geno.table(tgt_final)
 
 # Step 4B: Save final R objects
 save(geno.table, tgt_final, file = file.path(results_r_path, paste0(run_label, "_final_data.rda")))
+write.csv(geno.table, file=file.path(results_raw_path, paste0(run_label, "_geno.table.csv")))
 
 # Step 4C: Save all trackers to a single final Excel file
 message("Saving final tracking reports to a single Excel file...")
