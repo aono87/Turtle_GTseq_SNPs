@@ -1,0 +1,11 @@
+PASS	Basic Statistics	216906_msat.fastq
+PASS	Per base sequence quality	216906_msat.fastq
+WARN	Per tile sequence quality	216906_msat.fastq
+PASS	Per sequence quality scores	216906_msat.fastq
+FAIL	Per base sequence content	216906_msat.fastq
+FAIL	Per sequence GC content	216906_msat.fastq
+PASS	Per base N content	216906_msat.fastq
+WARN	Sequence Length Distribution	216906_msat.fastq
+FAIL	Sequence Duplication Levels	216906_msat.fastq
+FAIL	Overrepresented sequences	216906_msat.fastq
+PASS	Adapter Content	216906_msat.fastq

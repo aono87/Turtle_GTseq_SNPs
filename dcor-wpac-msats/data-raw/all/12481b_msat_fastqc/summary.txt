@@ -1,0 +1,11 @@
+PASS	Basic Statistics	12481b_msat.fastq
+PASS	Per base sequence quality	12481b_msat.fastq
+WARN	Per tile sequence quality	12481b_msat.fastq
+PASS	Per sequence quality scores	12481b_msat.fastq
+FAIL	Per base sequence content	12481b_msat.fastq
+FAIL	Per sequence GC content	12481b_msat.fastq
+PASS	Per base N content	12481b_msat.fastq
+WARN	Sequence Length Distribution	12481b_msat.fastq
+FAIL	Sequence Duplication Levels	12481b_msat.fastq
+FAIL	Overrepresented sequences	12481b_msat.fastq
+PASS	Adapter Content	12481b_msat.fastq

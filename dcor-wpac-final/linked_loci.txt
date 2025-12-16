@@ -1,0 +1,78 @@
+### My list of physically linked loci...
+
+19  locus038 16 NC_050076.1  82564116     3  # trinary SNP with singleton allele
+20  locus039 16 NC_050076.1  82076992     2 *  ## If it has a star, it means I preferred it over the other locus.
+
+21  locus040 16 NC_050076.1  80215058     2 *
+22  locus041 16 NC_050076.1  80021336     2
+
+82  locus183  0 NC_050076.1  13182609     N/A
+83  locus184  0 NC_050076.1  13560320     N/A
+84  locus186  0 NC_050076.1  14226530     2 *
+
+92  locus201 16 NC_050076.1   5353801     N/A
+158  Dc11295 16 NC_050076.1   6298213     3 *
+
+136  Dc01784  0 NC_050069.1 205911383     2 *
+61  locus128  0 NC_050069.1 206298862     N/A
+
+62  locus129  0 NC_050069.1 208295005     3 *
+201  Dc55481  0 NC_050069.1 209064009     2
+
+54  locus110 16 NC_050081.1 24559298    N/A 
+55  locus111 16 NC_050081.1 24559135     N/A
+
+72  locus155 16 NC_050072.1  19424056     N/A
+170  Dc20232 16 NC_050072.1  19413217     4 *
+
+59  locus120  0 NC_050072.1 110532829     2 *  #Winner by virtue of having less missing data
+190  Dc43398  0 NC_050072.1 110891654     2
+
+200  Dc54188  0 NC_050072.1 129989096     3 *
+56  locus113  0 NC_050072.1 130583936     2
+
+132  Dc00544  0 NC_050079.1  30353776     2
+95  locus215  0 NC_050079.1  31303381     2 *  # less missing data
+
+3   locus004  0 NC_050068.2  94194434     2 *
+4   locus005  0 NC_050068.2  95401851     2        ### Not within 1M but close! I could just remove the middle
+5   locus006  0 NC_050068.2  96494949     2 *
+
+85  locus188 16 NC_050078.2 11612767     N/A
+168  Dc16962  0 NC_050078.2 11788564     3 *
+
+123 locus322 16 NC_050077.1 32913971     2 *   # less missing data
+124 locus323 16 NC_050077.1 32357887     2
+
+150  Dc08578  0 NC_050077.1  9175388     N/A
+185  Dc36571 16 NC_050077.1  9216313     N/A
+
+6   locus007  0 NC_050073.1  36570709     2
+7   locus008  0 NC_050073.1  36571038     2 *  ### less missing data
+
+76  locus161  0 NC_050073.1  65165693     3 #trinary SNP
+77  locus164  0 NC_050073.1  65550825     3 *
+
+173  Dc22013  0 NC_050073.1  60399386     3 *
+75  locus159  0 NC_050073.1  61116229     N/A
+
+16  locus029  0 NC_050082.1 28075799     2
+17  locus030  0 NC_050082.1 28076101     3 * ## trinary SNP with singleton allele. ## less missing data
+
+39  locus073  0 NC_050070.1 134137187     N/A
+40  locus074  0 NC_050070.1 134263419     2 *
+
+188  Dc40235 16 NC_050070.1 195868001     N/A
+109 locus271  0 NC_050070.1 196156512     2 *
+
+67  locus139 16 NC_050084.1 13245012     3 *
+68  locus140 16 NC_050084.1 13244791     2
+
+73  locus156 16 NC_050074.1 119390438     2
+74  locus157 16 NC_050074.1 119210315     2 *  # less missing data
+
+90  locus195  0 NC_050074.1  61187984     3 #trinary SNP
+142  Dc06503  0 NC_050074.1  61544156     3 * #two SNPs
+
+163  Dc14022  0 NC_050074.1  75989833     2
+71  locus151  0 NC_050074.1  76084849     2 * # slightly less missing data
