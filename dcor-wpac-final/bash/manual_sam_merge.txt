@@ -47,3 +47,22 @@ z0062767_mapped2ref.sam		22.5
 z0012516_merged.sam			38.9
 z0012516_mapped2ref.sam 	20.7
 z0012528_mapped2ref.sam		18.2
+
+samtools merge -f merged/z0012496_merged.sam z0012496_mapped2ref.sam z0012496b_mapped2ref.sam z0061464_mapped2ref.sam
+
+z0012496_merged.sam 		30.4
+z0012496_mapped2ref.sam		0
+z0012496b_mapped2ref.sam 	7.4
+z0061464_mapped2ref.sam		22.9
+
+samtools merge -f merged/z0026457_merged.sam z0026457_mapped2ref.sam z0026457b_mapped2ref.sam z0040945_mapped2ref.sam
+z0026457_merged.sam		59.5
+z0026457_mapped2ref.sam
+z0026457b_mapped2ref.sam
+z0040945_mapped2ref.sam
+
+samtools merge -f merged/z0026450_merged.sam z0026450_mapped2ref.sam z0026450b_mapped2ref.sam z0040943_mapped2ref.sam
+
+z0026450_mapped2ref.sam		44.5
+z0026450b_mapped2ref.sam
+z0040943_mapped2ref.sam

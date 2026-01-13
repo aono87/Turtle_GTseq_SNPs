@@ -39,7 +39,6 @@ z0012509_merged.sam	z0012509	NA
 z0012511_mapped2ref.sam	z0012511	NA
 z0012512_mapped2ref.sam	z0012512	NA
 z0012513_mapped2ref.sam	z0012513	NA
-z0012514_merged.sam	z0012514	NA
 z0012515_mapped2ref.sam	z0012515	NA
 z0012516_merged.sam	z0012516	NA
 z0012517_mapped2ref.sam	z0012517	NA
@@ -89,8 +88,6 @@ z0037468_mapped2ref.sam	z0037468	NA
 z0037469_merged.sam	z0037469	NA
 z0037471_mapped2ref.sam	z0037471	NA
 z0040942_mapped2ref.sam	z0040942	NA
-z0040943_mapped2ref.sam	z0040943	NA
-z0040945_mapped2ref.sam	z0040945	NA
 z0061449_mapped2ref.sam	z0061449	NA
 z0061452_merged.sam	z0061452	NA
 z0061453_mapped2ref.sam	z0061453	NA
@@ -99,7 +96,6 @@ z0061457_mapped2ref.sam	z0061457	NA
 z0061459_mapped2ref.sam	z0061459	NA
 z0061461_mapped2ref.sam	z0061461	NA
 z0061462_mapped2ref.sam	z0061462	NA
-z0061464_mapped2ref.sam	z0061464	NA
 z0061467_merged.sam	z0061467	NA
 z0061468_mapped2ref.sam	z0061468	NA
 z0062622_merged.sam	z0062622	NA

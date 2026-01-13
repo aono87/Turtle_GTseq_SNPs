@@ -27,8 +27,8 @@ library(tibble)
 
 # --- Project and File Naming ---
 # These settings MUST match the previous scripts.
-project_name <- "dcor_wpac_new"
-final_analysis_stage <- "final_nodups"
+project_name <- "dcor_wpac_full"
+final_analysis_stage <- "merged"
 min_reads <- 20
 
 # --- Auto-Generated Paths (Do not change) ---
