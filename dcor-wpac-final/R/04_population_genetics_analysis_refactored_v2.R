@@ -66,21 +66,22 @@ if (!file.exists(gtypes.path)) {
 load(gtypes.path)
 
 # Automatically get the list of all strata from the gtypes object.
-strata.to.analyze <- getStrataNames(g)
-message(paste("Automatically detected", length(strata.to.analyze), "strata for analysis:"))
-message(paste(" -", strata.to.analyze, collapse = "\n"))
+#strata.to.analyze <- getStrataNames(g)
+#message(paste("Automatically detected", length(strata.to.analyze), "strata for analysis:"))
+#message(paste(" -", strata.to.analyze, collapse = "\n"))
 
-# Optional: Manually remove specific strata
-#strata.to.analyze <- strata.to.analyze[!strata.to.analyze %in% c("In-water, CA", "In-water, Indonesia")]
-#print(strata.to.analyze)
+# Manually remove specific strata
+strata.to.analyze.no.in_water <- strata.to.analyze[!strata.to.analyze %in% c("In-water, CA", "In-water, Indonesia")]
+print(strata.to.analyze.no.in_water)
 
 # Create a new gtypes object containing only the strata to be analyzed.
 pop.g <- g[i = which(getStrata(g) %in% strata.to.analyze)]
+pop.g.2 <- g[i = which(getStrata(g) %in% strata.to.analyze.no.in_water)]
 
 # Create a list of gtypes for each of the strata to keep
 all.strats.g <- strataSplit(g)
 pop.strats.g.split <- all.strats.g[names(all.strats.g) %in% strata.to.analyze]
-
+pop.strats.g.split.2<- all.strats.g[names(all.strats.g) %in% strata.to.analyze.no.in_water]
 
 # ====================================================================
 # STEP 2: SUMMARY STATISTICS
@@ -164,7 +165,7 @@ dev.off()
 # ====================================================================
 # STEP 4: HARDY-WEINBERG EQUILIBRIUM (HWE) ANALYSIS
 # ====================================================================
-message("\nStep 4: Calculating Hardy-Weinberg Equilibrium...")
+message("\nStep 4: Calculating Hardy-Weinberg Equilibrium for ALL strata...")
 
 hwe.list <- imap(pop.strats.g.split, ~{
   hweTest(.x) %>%
@@ -197,12 +198,45 @@ write.csv(hwe.res.unadj, file.path(results_raw_path, paste0(run_label, ".hwe.una
 write.csv(hwe.res.adj, file.path(results_raw_path, paste0(run_label, ".hwe.adjusted.csv")), row.names = FALSE)
 save(hwe.res.unadj, hwe.res.adj, file = file.path(data_path, paste0(run_label, ".hwe.results.rda")))
 
+message("\nStep 4: Calculating Hardy-Weinberg Equilibrium for all strata except the two in-water populations...")
+
+hwe.list.2 <- imap(pop.strats.g.split.2, ~{
+  hweTest(.x) %>%
+    data.frame() %>%
+    rownames_to_column(var = "locus") %>%
+    setNames(c("locus", .y))
+})
+hwe.res.2 <- reduce(hwe.list.2, full_join, by = "locus")
+
+hwe.res.unadj.2 <- hwe.res.2 %>%
+  rowwise() %>%
+  mutate(num.sig.p = sum(c_across(all_of(strata.to.analyze.no.in_water)) < 0.05, na.rm = TRUE)) %>%
+  ungroup()
+
+hwe.p.adj.2 <- hwe.res.2 %>%
+  select(-locus) %>%
+  as.matrix() %>%
+  apply(1, function(p_vals) p.adjust(p_vals, method = p.adjust.method, n = sum(!is.na(p_vals)))) %>%
+  t() %>%
+  as.data.frame()
+
+hwe.res.adj.2 <- bind_cols(locus = hwe.res.2$locus, hwe.p.adj.2) %>%
+  rowwise() %>%
+  mutate(num.sig.adj.p = sum(c_across(all_of(strata.to.analyze.no.in_water)) < 0.05, na.rm = TRUE)) %>%
+  ungroup() %>%
+  arrange(desc(num.sig.adj.p))
+
+# --- Save HWE results (filenames updated) ---
+write.csv(hwe.res.unadj.2, file.path(results_raw_path, paste0(run_label, ".hwe.unadjusted.no_in_water.csv")), row.names = FALSE)
+write.csv(hwe.res.adj.2, file.path(results_raw_path, paste0(run_label, ".hwe.adjusted.no_in_water.csv")), row.names = FALSE)
+save(hwe.res.unadj, hwe.res.adj, file = file.path(data_path, paste0(run_label, ".hwe.results.no_in_water.rda")))
+
 message("HWE analysis complete. Results saved.")
 
 # ====================================================================
 # STEP 5: LINKAGE DISEQUILIBRIUM (LD) ANALYSIS
 # ====================================================================
-message("\nStep 5: Calculating Linkage Disequilibrium...")
+message("\nStep 5: Calculating Linkage Disequilibrium in ALL strata...")
 
 g.filtered.for.ld <- imap(pop.strats.g.split, ~{
   loc_summary <- summarizeLoci(.x)
@@ -250,5 +284,80 @@ write.csv(ld.sig.res, file.path(results_raw_path, paste0(run_label, ".ld.unadjus
 write.csv(ld.res.adj, file.path(results_raw_path, paste0(run_label, ".ld.adjusted.csv")), row.names = FALSE)
 save(ld.sig.res, ld.res.adj, ld.strata.list, file = file.path(data_path, paste0(run_label, ".ld.results.rda")))
 
+message("\nStep 5: Calculating Linkage Disequilibrium in ALL strata except the two in-water populations...")
+
+g.filtered.for.ld.2 <- imap(pop.strats.g.split.2, ~{
+  loc_summary <- summarizeLoci(.x)
+  loci_to_remove <- loc_summary %>% filter(prop.genotyped < ld.locus.geno.threshold) %>% pull(locus)
+  if (length(loci_to_remove) > 0) {
+    message(paste("   - For stratum '", .y, "', removing", length(loci_to_remove), "loci with <", ld.locus.geno.threshold * 100, "% genotyping."))
+    .x <- .x[, -which(getLociNames(.x) %in% loci_to_remove),]
+  }
+  return(.x)
+})
+
+message("Running LDgenepop on all strata except two in-water strata. This may take a while...")
+ld.strata.list.2 <- map(g.filtered.for.ld.2, LDgenepop)
+
+ld.sig.res.2 <- imap(ld.strata.list.2, ~{
+  .x %>%
+    select(Locus.1, Locus.2, p.value) %>%
+    drop_na(Locus.1, Locus.2) %>%
+    group_by(Locus.1, Locus.2) %>%
+    summarise(p.value = min(p.value, na.rm = TRUE), .groups = "drop") %>%
+    rename(!!sym(paste0('p.val.', .y)) := p.value)
+}) %>% reduce(full_join, by = c("Locus.1", "Locus.2"))
+
+ld.sig.res.2 <- ld.sig.res.2 %>%
+  rowwise() %>%
+  mutate(num.sig.p = sum(c_across(starts_with("p.val.")) < 0.05, na.rm = TRUE)) %>%
+  ungroup()
+
+p.val.cols.2 <- ld.sig.res.2 %>% select(starts_with("p.val."))
+ld.p.adj.2 <- apply(p.val.cols.2, 1, function(p) p.adjust(p, method = p.adjust.method, n = sum(!is.na(p)))) %>%
+  t() %>%
+  as.data.frame()
+colnames(ld.p.adj.2) <- paste0(names(p.val.cols.2), "_adj")
+
+ld.res.adj.2 <- ld.sig.res.2 %>%
+  select(Locus.1, Locus.2) %>%
+  bind_cols(ld.p.adj.2) %>%
+  rowwise() %>%
+  mutate(num.sig.adj.p = sum(c_across(ends_with("_adj")) < 0.05, na.rm = TRUE)) %>%
+  ungroup() %>%
+  arrange(desc(num.sig.adj.p))
+
+# --- Save LD results (filenames updated) ---
+write.csv(ld.sig.res.2, file.path(results_raw_path, paste0(run_label, ".ld.unadjusted_no_in_water.csv")), row.names = FALSE)
+write.csv(ld.res.adj.2, file.path(results_raw_path, paste0(run_label, ".ld.adjusted_no_in_water.csv")), row.names = FALSE)
+save(ld.sig.res.2, ld.res.adj.2, ld.strata.list.2, file = file.path(data_path, paste0(run_label, ".ld.results_no_in_water.rda")))
+
 message("LD analysis complete. Results saved.")
+
+# ====================================================================
+# STEP 6: FINALIZE DATASET
+# ====================================================================
+
+# --- Remove linked or out of HWE loci ---
+
+#Original gtypes with all strata (including "in water")
+g
+getLociNames(g)
+
+#Manually remove specific loci (locus140 and locus186)
+locs_to_remove <- c("locus140", "locus186")
+to.keep <- setdiff(getLociNames(g), locs_to_remove) #makes a new list of loci without the ones you want to remove
+
+# Filter the locus names and subset
+g.no.ld <- g[,to.keep,] #standard R indexing, asking to only keep the loci you want
+g.no.ld
+
+# Save updated gtypes file
+gtypes.no.ld.path <- file.path("data", paste0("gtypes_", run_label, "_minReads", min_reads, ".no.ld.rda"))
+save(g, file = gtypes.no.ld.path)
+
+# --- Update the indivdual summary ---
+ind.sum.no.ld <- summarizeInds(g.no.ld)
+write.csv(ind.sum.no.ld, file = file.path(results_raw_path, paste0(run_label, ".ind.sum.no.ld.csv")), row.names = FALSE)
+
 message("\n✅ Workflow Complete!")

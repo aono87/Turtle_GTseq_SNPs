@@ -8,7 +8,7 @@
 # populations.
 #
 # INPUTS:
-#   - A `gtypes` object (`.rda` file) from `02_create_gtypes.R`.
+#   - A `gtypes` object (`.rda` file). The final version for this is from `04_population_genetics_analysis_refactored_v2.R`.
 #
 # OUTPUTS:
 #   - JPEG files for DAPC scatter plots and assignment tables.
@@ -33,12 +33,13 @@ library(ggrepel)
 # --- Project and File Naming ---
 # These settings MUST match the previous scripts.
 project_name <- "dcor_wpac"
-analysis_stage <- "final_nodups"
+analysis_stage <- "merged"
 min_reads <- 20
 
 # --- Auto-Generated Paths (Do not change) ---
 run_label <- paste(project_name, analysis_stage, sep = "_")
-gtypes_file <- paste0("gtypes_", run_label, "_minReads", min_reads, ".rda")
+#gtypes_file <- paste0("gtypes_", run_label, "_minReads", min_reads, ".rda")
+gtypes_file <- file.path("gtypes_", run_label, "_minReads", min_reads, ".no.ld.rda") #updated for no.ld
 gtypes_path <- file.path("data", gtypes_file)
 
 # --- Output Paths ---
