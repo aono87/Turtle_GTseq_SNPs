@@ -1,0 +1,68 @@
+#Scripts to merge sam files into a single one, run separately
+
+cd /Users/aonoufriou/Documents/GitHub/Turtle_GTseq_SNPs/dcor-wpac-final/data-raw/sam_files
+
+samtools merge merged/z0026457_merged.sam z0026457_mapped2ref.sam z0026457b_mapped2ref.sam z0040945_mapped2ref.sam
+
+samtools merge merged/z0026450_merged.sam z0026450_mapped2ref.sam z0026450b_mapped2ref.sam z0040943_mapped2ref.sam
+
+samtools merge merged/z0012509_merged.sam z0012509b_mapped2ref.sam z0012509c_mapped2ref.sam
+
+
+#Checking merge worked
+
+z0026457_merged.sam      59.5 MB
+z0026457_mapped2ref.sam  19.2 MB
+z0026457b_mapped2ref.sam 19.0  MB
+z0040945_mapped2ref.sam  21.2 MB
+
+z0026450_merged.sam      44.5 MB
+z0026450_mapped2ref.sam  15.8 MB
+z0026450b_mapped2ref.sam 16.3 MB
+z0040943_mapped2ref.sam  12.4 MB
+
+z0012509_merged.sam      33.5 MB
+z0012509b_mapped2ref.sam 15.7 MB
+z0012509c_mapped2ref.sam 17.8 MB
+
+samtools merge merged/z0012505_merged.sam z0061450_mapped2ref.sam  z0012505_mapped2ref.sam
+samtools merge merged/z0012509_merged.sam z0012509b_mapped2ref.sam z0012509c_mapped2ref.sam z0012508_mapped2ref.sam
+samtools merge merged/z0062712_merged.sam z0062712_mapped2ref.sam  z0062712b_mapped2ref.sam z0062767_mapped2ref.sam
+samtools merge merged/z0012516_merged.sam z0012516_mapped2ref.sam  z0012528_mapped2ref.sam
+
+z0012505_merged.sam			31.9
+z0061450_mapped2ref.sam 	21.3
+z0012505_mapped2ref.sam		10.7
+
+z0012509_merged.sam			65.8
+z0012509b_mapped2ref.sam	15.7
+z0012509c_mapped2ref.sam	17.8
+z0012508_mapped2ref.sam		32.3
+
+z0062712_merged.sam			49.9
+z0062712_mapped2ref.sam		12.8
+z0062712b_mapped2ref.sam	14.6
+z0062767_mapped2ref.sam		22.5
+
+z0012516_merged.sam			38.9
+z0012516_mapped2ref.sam 	20.7
+z0012528_mapped2ref.sam		18.2
+
+samtools merge -f merged/z0012496_merged.sam z0012496_mapped2ref.sam z0012496b_mapped2ref.sam z0061464_mapped2ref.sam
+
+z0012496_merged.sam 		30.4
+z0012496_mapped2ref.sam		0
+z0012496b_mapped2ref.sam 	7.4
+z0061464_mapped2ref.sam		22.9
+
+samtools merge -f merged/z0026457_merged.sam z0026457_mapped2ref.sam z0026457b_mapped2ref.sam z0040945_mapped2ref.sam
+z0026457_merged.sam		59.5
+z0026457_mapped2ref.sam
+z0026457b_mapped2ref.sam
+z0040945_mapped2ref.sam
+
+samtools merge -f merged/z0026450_merged.sam z0026450_mapped2ref.sam z0026450b_mapped2ref.sam z0040943_mapped2ref.sam
+
+z0026450_mapped2ref.sam		44.5
+z0026450b_mapped2ref.sam
+z0040943_mapped2ref.sam

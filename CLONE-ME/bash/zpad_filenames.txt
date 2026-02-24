@@ -1,0 +1,11 @@
+#Script to z-pad filenames
+
+rename 's/^(\d+)([a-z]?)/sprintf("z%07d%s", $1, $2)/e' *.sam  
+
+'6799_merged.sam' would be renamed to 'z0006799_merged.sam'
+'6799b_mapped2ref.sam' would be renamed to 'z0006799b_mapped2ref.sam'
+
+#to check what it would do before actually changing, add a -n flag right after rename
+
+#removing the run name from the middle of the file
+rename 's/_ms\d+//' *.sam
